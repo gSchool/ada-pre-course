@@ -90,11 +90,11 @@ With newly purchased Macs the default shell is zsh, while older macs use an olde
 
 To set your shell to zsh first start terminal and then go to preferences.
 
-[set terminal preferences](images/terminal-preferences.png)
+![set terminal preferences](images/terminal-preferences.png)
 
 Then set the **Shells open with:** to `/bin/zsh`.
 
-[set default shell to zsh](set-default-shell.png)
+![set default shell to zsh](set-default-shell.png)
 
 ### Oh My Zsh
 
