@@ -2,6 +2,8 @@
 
 ## MacOS Screen Setup
 
+It's very helpful to split your screen when writing code with one half of the screen consisting of your editor and the other the terminal or browser.  This way you can go back and forth between the editor and terminal with minimal disruption. 
+
 ### TODO - Video on split screen
 
 There are a number of tools available to help you split your screen including:
@@ -16,11 +18,15 @@ There are a number of tools available to help you split your screen including:
 
 As web developers we regularly use the terminal to run, edit, test and debug our applications.  As such it's important to get familiar with using the MacOS terminal. 
 
-To launch terminal hit `cmd-spacebar` and then type terminal.  You can also add the terminal application to your dock, by right-clicking on the application. 
+To launch terminal hit `cmd-spacebar` and then type terminal.  
 
 ![launch terminal](images/launch-terminal.png)
 
+You can also add the terminal application to your dock, by right-clicking on the application. 
+
 ![add terminal to dock](images/add-to-dock.png)
+
+There are a variety of keyboard combinations and commands you can use when using the terminal.
 
 #### Terminal Shortcuts
 
