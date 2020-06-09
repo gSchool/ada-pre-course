@@ -225,10 +225,6 @@ With Ruby we use `snake_case` in the style guide.
 
 ##### !question
 
-[markdown, your question]
-
-##### !question
-
 What is wrong with this code:
 
 ```ruby
