@@ -198,11 +198,11 @@ end
 
 ##### !end-answer
 
-##### !hint
+##### !explanation
 
 With Ruby we use `snake_case` in the style guide.
 
-##### !end-hint
+##### !end-explanation
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
@@ -259,11 +259,11 @@ puts "You can afford anything."
 
 ##### !end-answer
 
-##### !hint
+##### !explanation
 
 With if statements code should be indented 2 spaces.
 
-##### !end-hint
+##### !end-explanation
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
@@ -317,7 +317,7 @@ puts "The average is #{average}"
 
 ##### !end-answer
 
-##### !hint
+##### !explanation
 
 While there's nothing **really** wrong with the code presented, the code is very dense, and could be broken up with some newlines to be more readable.  
 
@@ -334,7 +334,7 @@ average = total.to_f / 5
 puts "The average is #{average}"
 ```
 
-##### !end-hint
+##### !end-explanation
 
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
