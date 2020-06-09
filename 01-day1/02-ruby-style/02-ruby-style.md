@@ -152,6 +152,203 @@ Use snake_case for naming files and directories.
     end
   ```
 
+## Check for Understanding
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 2620a069-3f3b-486e-a669-fee596e993e1
+* title: Code Style Question 1
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+What is wrong with this code:
+
+```ruby
+currentAge = 22
+
+if currentAge >= 18
+  puts "You are allowed to vote."
+  puts "Consider carefully"
+else 
+  puts "You are yet too young to vote."
+end
+```
+
+##### !end-question
+
+##### !options
+
+* There is too much blank space
+* The `if` statement should have parentheses ( ) around the condition.
+* The variable should be named `current_age`.
+* The variable should be named `CurrentAge`
+* The indentation is wrong
+
+##### !end-options
+
+##### !answer
+
+* The variable should be named `current_age`.
+
+##### !end-answer
+
+##### !hint
+
+With Ruby we use `snake_case` in the style guide.
+
+##### !end-hint
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 126f39ed-7662-4d27-8043-501502d14f03
+* title: Code Style Question 2
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+[markdown, your question]
+
+##### !question
+
+What is wrong with this code:
+
+```ruby
+puts "How much money are you willing to spend?"
+money = gets.chomp.to_i
+
+if money < 50
+puts "You can buy a soda."
+elsif money < 75
+puts "You can buy a candy bar."
+elsif money < 100
+puts "You can buy a good chocolate bar!"
+else
+puts "You can afford anything."
+```
+
+##### !end-question
+
+##### !options
+
+* There is not enough blank lines
+* The `if` statement should have parentheses ( ) around the condition.
+* The variable should be named `current_age`.
+* The variable should be named `CurrentAge`
+* The indentation is wrong
+
+##### !end-options
+
+##### !answer
+
+* The indentation is wrong
+
+##### !end-answer
+
+##### !hint
+
+With if statements code should be indented 2 spaces.
+
+##### !end-hint
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 3acc40e4-5d32-40e0-9e7d-701de8692d7a
+* title: Code Style Question 3
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+What is wrong with this code:
+
+```ruby
+total = 0
+5.times do |i|
+  puts "Please enter score # #{i + 1}"
+  num = gets.chomp.to_i
+  total += num
+end
+average = total.to_f / 5
+puts "The average is #{average}"
+```
+
+##### !end-question
+
+##### !options
+
+* There is not enough blank lines
+* The `if` statement should have parentheses ( ) around the condition.
+* The variable should be named `current_age`.
+* The variable should be named `CurrentAge`
+* The indentation is wrong
+
+##### !end-options
+
+##### !answer
+
+* There is not enough blank lines
+
+##### !end-answer
+
+##### !hint
+
+While there's nothing **really** wrong with the code presented, the code is very dense, and could be broken up with some newlines to be more readable.  
+
+```ruby
+total = 0
+
+5.times do |i|
+  puts "Please enter score # #{i}"
+  num = gets.chomp.to_i
+  total += num
+end
+
+average = total.to_f / 5
+puts "The average is #{average}"
+```
+
+##### !end-hint
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 ## Resources
 
 * [Ada Ruby Style Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=271e9de5-57df-4248-a656-aa5a015efbda)
