@@ -48,3 +48,8 @@ puts "a".to_f		# prints 0.0
   puts "You entered #{num}, #{num} to the power of 2 is #{num ** 2}"
 end
 ```
+
+### References
+
+* [Ada Keyboard Input Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c2c9fdc-19e6-4e37-b5dc-6a57054a83ec) (5:51)
+  
