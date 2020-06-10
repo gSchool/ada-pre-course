@@ -4,7 +4,7 @@
 
 It's very helpful to split your screen when writing code with one half of the screen consisting of your editor and the other the terminal or browser.  This way you can go back and forth between the editor and terminal with minimal disruption. 
 
-### TODO - Video on split screen
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=d9dba6a8-04d8-4161-8950-abd6002cb7c7&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" width=720 height=405 style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 There are a number of tools available to help you split your screen including:
 
@@ -14,7 +14,7 @@ There are a number of tools available to help you split your screen including:
 
 ## Terminal
 
-### TODO - Video on Terminal
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=2cdaf784-ea88-4e27-872f-abd6002f4863&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" width=720 height=405 style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 As web developers we regularly use the terminal to run, edit, test and debug our applications.  As such it's important to get familiar with using the MacOS terminal. 
 
@@ -56,7 +56,7 @@ IRB is a terminal-based tool where you can run Ruby commands and see the results
 
 There are a few shortcut commands that are helpful to know.
 
-## TODO - Make IRB video (30 seconds)
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=8fdf1e1d-c8e1-40d7-a639-abd60032162e&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" width=720 height=405 style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 #### irb commands
 
@@ -70,14 +70,12 @@ There are a few shortcut commands that are helpful to know.
 
 You can run Ruby files from the terminal by typing `ruby` followed by the name of the file.  
 
-## TODO - Make ruby running video (30 seconds)
-
 ### VS Code
 
-## TODO - Setup Video on VS Code
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=9e5ed912-4961-49ed-b03a-abd60034e1b7&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" width=720 height=405 style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 * If [VS Code](https://code.visualstudio.com/) is a very extensible open-source editor which supports a variety of languages including Ruby, Python, and JavaScript.  
-* In VS Code, type `shift-command-p` and type shell command to install the terminal shell command.
+* In VS Code, type `shift-command-p` and type **shell command to install the terminal shell command**.
 * Now, to launch VS Code from terminal, type `code` followed by the file name or directory name
 
 ## Customizing Your Shell - Optional
