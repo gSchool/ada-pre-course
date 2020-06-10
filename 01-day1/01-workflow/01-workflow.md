@@ -84,7 +84,7 @@ You can run Ruby files from the terminal by typing `ruby` followed by the name o
 
 ### Setting zsh as the default shell
 
-A shell is a set of commands and user interface for running a computer via the terminal.  With newly purchased Macs the default shell is zsh, while older macs use an older version of the Bash shell.
+A shell is a set of commands and user interface for controlling an operating system via the terminal.  With newly purchased Macs the default shell is zsh, while older macs use an older version of the Bash shell.
 
 With newly purchased Macs the default shell is zsh, while older macs use an older version of the Bash.  You can read more about [zsh vs bash](https://dev.to/jasmin/a-brief-difference-between-zsh-and-bash-5ebp) if you are interested.  
 
