@@ -70,9 +70,17 @@ Decimal numbers are called Floats in Ruby.
 ##### !end-explanation
 
 <!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+##### !hint
+
+Notice the decimal
+
+##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+##### !explanation
+
+A float is a real number, i.e. a number with a decimal.
+
+##### !end-explanation
 
 ### !end-challenge
 
@@ -118,9 +126,17 @@ Strings are a collection of literal characters and are indicated by being enclos
 ##### !end-explanation
 
 <!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+##### !hint
+
+Notice the quotations.
+
+##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+##### !explanation
+
+String literals are text enclosed in single or double quotes.  So "hello" is a string as is '100'.
+
+##### !end-explanation
 
 ### !end-challenge
 
@@ -166,7 +182,13 @@ Hashes are collections of key-value pairs.
 ##### !end-explanation
 
 <!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+
+##### !hint
+
+Notice the curly braces and pairs of values separated by colons (:).
+
+##### !end-hint
+
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 <!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
 
