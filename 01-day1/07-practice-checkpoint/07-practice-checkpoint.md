@@ -265,7 +265,7 @@ The method `gets` reads in one line from the keyboard including the enter key or
 ### !challenge
 
 * type: multiple-choice
-* id: 2327dd04-52b5-47c3-951d-1e2a30eeb5d8
+* id: 76aaf60b-5bce-4db5-8310-e02b370f4f94
 * title: Ruby Strings
 <!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
 * topics: ruby-strings
