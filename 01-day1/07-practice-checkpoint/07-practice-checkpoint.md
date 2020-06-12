@@ -373,3 +373,61 @@ Notice that the code is really hard to read and it's hard to identify what text 
 ### !end-challenge
 
 <!--END CHALLENGE-->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 2327dd04-52b5-47c3-951d-1e2a30eeb5d8
+* title: Pass by reference
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: ruby-variables
+
+##### !question
+
+What will the following print out?
+
+```ruby
+students = ["Mark Dean", "Philip Emeagwali", "Clarence Ellis"]
+
+list = students
+list[0] = "Marc Hannah"
+
+puts students.first
+```
+
+##### !end-question
+
+##### !options
+
+* Mark Dean
+* Philip Emeagwali
+* Clarence Ellis
+* Marc Hannah
+
+##### !end-options
+
+##### !answer
+
+* Marc Hannah
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+Note that both students and list will both reference the same object in memory.
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Since both variables reference the same object in memory they start off referencing ["Mark Dean", "Philip Emeagwali", "Clarence Ellis"].  Then when list[0] = "Marc Hannah", both lists will refer to the array ["Marc Hannah", "Philip Emeagwali", "Clarence Ellis"].  So students.first will be "Marc Hannah".
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
