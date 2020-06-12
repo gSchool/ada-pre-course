@@ -360,11 +360,15 @@ puts "You made $#{rate * hours} per hour."
 ##### !answer
 
 * No indentation
-* Variables not camelCase
-* Variables not snake_case
 * Needs to be broken up by blank lines
 
 ##### !end-answer
+
+##### !explanation
+
+Notice that the code is really hard to read and it's hard to identify what text is inside the loops.  It would also be more readable with some blank lines between sections of code.
+
+##### !end-explanation
 
 ### !end-challenge
 
