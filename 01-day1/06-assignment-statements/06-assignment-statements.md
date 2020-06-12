@@ -123,7 +123,7 @@ puts "#{list}"    # ["Peter", "Ida", "Mary"]
 * id: 0c7d1b98-583b-4800-ade8-e1d426b76681
 * title: References and values
 <!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-* topics: assignment statements
+* topics: assignment
 
 ##### !question
 
