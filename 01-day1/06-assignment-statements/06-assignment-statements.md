@@ -114,6 +114,64 @@ other_list[1] = "Ida"
 puts "#{list}"    # ["Peter", "Ida", "Mary"]
 ```
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 0c7d1b98-583b-4800-ade8-e1d426b76681
+* title: [text, a short question title]
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: assignment-statements, pass-by-reference
+
+##### !question
+
+What will the following output?
+
+```ruby
+name = "Great Gatsby"
+other_name = name
+
+name.swapcase!
+
+puts other_name
+```
+
+##### !end-question
+
+##### !options
+
+* Great Gatsby
+* gREAT gATSBY
+* great gatsby
+* GREAT GATSBY
+
+##### !end-options
+
+##### !answer
+
+* gREAT gATSBY
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint 
+
+swapcase will convert all capital letters to lower case and all lower-case letters to capital letters.
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Both variables refer to the same string in memory.  `.swapcase!` will convert all the capital letters to lower case and lower case letters to capital letters.  Since both variables refer to the same string in memory both will reflect the changes.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 ### Resources
 
 - [Ada Assignment Statements Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7d4167a7-8bc9-4d38-b58a-0cf78392cc2b) (11:09)
