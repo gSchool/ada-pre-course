@@ -51,6 +51,10 @@ Standards:
     ContentFiles:
       -
         Type: Lesson
+        UID: 18f16ec4260a55f0f1d117640a7f8061
+        Path: /02-day02/00-starter/00-starter.md
+      -
+        Type: Lesson
         UID: a09bc9de150b72e911bae27f01a35938
         Path: /02-day02/01-boolean-expressions/01-boolean-expressions.md
       -
