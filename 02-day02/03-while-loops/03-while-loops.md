@@ -57,4 +57,4 @@ puts "The total is #{total}"
 
 For practice Create a loop in which outputs all the even numbers from 0 - 10.
 
-When you are ready you can see an [example solution.](example-code/while-solution.resource.md)
+When you are ready you can see an [example solution.](while-solution.resource.md)
