@@ -62,6 +62,10 @@ Standards:
         UID: 99dd56ddb0ca192f1d51f2c2f35bf275
         Path: /02-day02/03-while-loops/03-while-loops.md
       -
+        Type: Resource
+        UID: e9a8570263c5ab4fe62f02a039995e86
+        Path: /02-day02/03-while-loops/while-solution.resource.md
+      -
         Type: Lesson
         UID: d04f0d1e2085f8c9e3d9989c0660d459
         Path: /02-day02/04-lab/04-lab.md
