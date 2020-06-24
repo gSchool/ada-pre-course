@@ -17,7 +17,7 @@ describe "Test Suite" do
     end
     $stdout = original_stdout
     
-    output_list = output.string.split(/\n/)
+    output_list = output.string.split(/\s/)
     return output_list
   end
 
@@ -75,7 +75,7 @@ describe "Test Suite" do
     expect(multiple_of_five).must_equal true
   end
 
-  it "will result in MULTIPLE OF 5 for -10" do
+  it "will result in EVEN for -10" do
     output_list = user_input_helper('-10', FILENAME_TO_TEST)
     
     not_a_multiple_of_five = false
