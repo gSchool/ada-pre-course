@@ -119,9 +119,23 @@ puts total
 | ~~3~~ | ~~6~~ | -      |
 | 3     | 6     | 6      |
 
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: paragraph
+* id: 72dd45ae-e587-46eb-9751-d322cb65dd48
+* title: Times comparison
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* topics: iteration
+
+##### !question
+
 ## Loop vs. Iterator Comparison
 
-1. `times` example
+ `times` example
 
 * What is the difference between these two sections of code?
 * Which is a better style solution?
@@ -137,3 +151,28 @@ end
   puts "dance"
 end
 ```
+
+##### !end-question
+
+##### !placeholder
+
+[text, placeholder text for input field]
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+Do you notice anything about the line with `2.times do`?
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+The second example has a loop variable `i`, which is unused.  Because it's unused, it's better left off for brevity and to reduce confusion.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
