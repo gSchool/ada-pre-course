@@ -34,6 +34,7 @@ describe "Test Suite" do
         not_in_pw = true
       end
     end
+    puts output_list
 
     expect(in_pw).must_equal true
     expect(not_in_pw).must_equal false
@@ -52,6 +53,7 @@ describe "Test Suite" do
         not_in_pw = true
       end
     end
+    puts output_list
 
     expect(in_pw).must_equal true
     expect(not_in_pw).must_equal false
@@ -70,6 +72,7 @@ describe "Test Suite" do
         not_in_pw = true
       end
     end
+    puts output_list
 
     expect(in_pw).must_equal false
     expect(not_in_pw).must_equal true
@@ -88,6 +91,8 @@ describe "Test Suite" do
         not_in_pw = true
       end
     end
+
+    puts output_list
 
     expect(in_pw).must_equal false
     expect(not_in_pw).must_equal true
