@@ -30,7 +30,7 @@ describe "Test Suite" do
     output_list.each do |word|
       if (word.match /This state is in the PNW/) && !not_in_pw
         in_pw = true
-      elsif (word.match /You should move to the PNW.  It’s great here!/ ) && !in_pw
+      elsif (word.match /You should move to the PNW./ ) && !in_pw
         not_in_pw = true
       end
     end
@@ -48,7 +48,7 @@ describe "Test Suite" do
     output_list.each do |word|
       if (word.match /This state is in the PNW/) && !not_in_pw
         in_pw = true
-      elsif (word.match /You should move to the PNW.  It’s great here!/ ) && !in_pw
+      elsif (word.match /You should move to the PNW./ ) && !in_pw
         not_in_pw = true
       end
     end
@@ -66,7 +66,7 @@ describe "Test Suite" do
     output_list.each do |word|
       if (word.match /This state is in the PNW/) && !not_in_pw
         in_pw = true
-      elsif (word.match /You should move to the PNW.  It’s great here!/ ) && !in_pw
+      elsif (word.match /You should move to the PNW./ ) && !in_pw
         not_in_pw = true
       end
     end
@@ -84,7 +84,7 @@ describe "Test Suite" do
     output_list.each do |word|
       if (word.match /This state is in the PNW/) && !not_in_pw
         in_pw = true
-      elsif (word.match /You should move to the PNW.  It’s great here!/ ) && !in_pw
+      elsif (word.match /You should move to the PNW./ ) && !in_pw
         not_in_pw = true
       end
     end
