@@ -75,3 +75,77 @@ end
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
+### 1. Passing or Not
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+* type: custom-snippet
+* language: text
+* id: 885d56b8-e509-40a8-9e59-76213eb5d4fa
+* title: passing or not passing
+* docker_directory_path: /custom-snippets/green-go
+* points: 1
+* topics: ruby conditionals
+
+##### !question
+
+Prompt for a string. If the string is equal to green, print GO, otherwise, print STOP.
+
+Example Run:
+
+```
+Enter a string  ==> green
+GO
+```
+
+Second Example Run
+
+```
+Enter a string  ==> Green
+STOP
+```
+
+Third Example Run
+
+```
+Enter a string  ==> red
+STOP
+```
+
+
+##### !end-question
+
+##### !placeholder
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint 
+
+Remember capitalization!
+
+##### !end-hint
+
+##### !explanation 
+
+A good solution would be:
+
+```ruby
+print "Please enter a number ==> "
+text = gets.chomp
+
+if text == "green"
+  puts "GO"
+else
+  puts "STOP"
+end
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
