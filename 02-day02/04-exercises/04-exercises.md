@@ -447,3 +447,87 @@ end
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
+
+### 7. Coffee Sizes
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+* type: custom-snippet
+* language: text
+* id: 3a794c62-0e9a-4865-a72c-d3d1890bbd41
+* title: Coffee Sizes
+* docker_directory_path: /custom-snippets/coffee-sizes
+* points: 1
+* topics: ruby conditionals
+
+##### !question
+
+Prompt for a one of the following: SHORT, TALL, GRANDE, VENTI. Print out the number of ounces that drink includes (8, 12, 16, 20 respectively).
+
+Example Run:
+
+```
+Please enter a drink size (SHORT, TALL, GRANDE or VENTI)  ==> VENTI
+20 ounces
+```
+
+Second Example Run
+
+```
+Please enter a drink size (SHORT, TALL, GRANDE or VENTI)  ==> Short
+8 ounces
+```
+
+Third Example Run
+
+```
+Please enter a drink size (SHORT, TALL, GRANDE or VENTI)  ==> GRANDE
+16 ounces
+```
+
+Fourth Example Run
+
+```
+Please enter a drink size (SHORT, TALL, GRANDE or VENTI)  ==> Big
+```
+
+##### !end-question
+
+##### !placeholder
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint 
+
+You will need an `if` with some `elsif` blocks.
+
+##### !end-hint
+
+##### !explanation 
+
+A good solution would be:
+
+```ruby
+print "Please enter a drink size (SHORT, TALL, GRANDE or VENTI)  ==> "
+size = gets.chomp.upcase
+
+if size == "SHORT"
+  puts "8 ounces"
+elif size == "TALL"
+  puts "12 ounces"
+elif size == "GRANDE"
+  puts "16 ounces"
+elif size == "VENTI"
+  puts "20 ounces"
+end
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
