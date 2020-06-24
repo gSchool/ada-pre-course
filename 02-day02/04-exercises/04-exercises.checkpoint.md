@@ -26,7 +26,7 @@ View this content in Learn to see the interactive Challenge rendered. Instructio
 
 ##### !question
 
-Prompt for a number. If the number is greater than 70, print PASSING; otherwise, print NOT PASSING.
+Prompt for a number. If the number is greater than 70, print PASSING, otherwise, print NOT PASSING.
 
 Example Run:
 
@@ -390,13 +390,13 @@ end
 
 ##### !question
 
-Prompt for a state. If the state is Washington, Oregon, or Idaho, print This state is in the PNW, otherwise print `You should move to the PNW; it’s great here!`
+Prompt for a state. If the state is Washington, Oregon, or Idaho, print This state is in the PNW, otherwise print `You should move to the PNW.  It’s great here!`
 
 Example Run:
 
 ```
 Enter a State  ==> Texas
-You should move to the PNW; it’s great here!
+You should move to the PNW.  It’s great here!
 ```
 
 Second Example Run
@@ -438,7 +438,7 @@ state = gets.chomp
 if state == "Washington" || state == "Idaho" || state == "Oregon"
   puts "This state is in the PNW"
 else
-  puts "You should move to the PNW; it’s great here!"
+  puts "You should move to the PNW.  It’s great here!"
 end
 ```
 
