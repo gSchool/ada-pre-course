@@ -30,7 +30,7 @@ describe "Test Suite" do
     output_list.each do |word|
       if (word.match /This state is in the PNW/) && !not_in_pw
         in_pw = true
-      elsif (word.match /You should move to the PNW; it’s great here!/ ) && !in_pw
+      elsif (word.match /You should move to the PNW.  It’s great here!/ ) && !in_pw
         not_in_pw = true
       end
     end
@@ -48,7 +48,7 @@ describe "Test Suite" do
     output_list.each do |word|
       if (word.match /This state is in the PNW/) && !not_in_pw
         in_pw = true
-      elsif (word.match /You should move to the PNW; it’s great here!/ ) && !in_pw
+      elsif (word.match /You should move to the PNW.  It’s great here!/ ) && !in_pw
         not_in_pw = true
       end
     end
@@ -57,7 +57,7 @@ describe "Test Suite" do
     expect(not_in_pw).must_equal false
   end
 
-  it "will result in 'You should move to the PNW; it’s great here!' for Texas" do
+  it "will result in 'You should move to the PNW.  It’s great here!' for Texas" do
     output_list = user_input_helper('Texas', FILENAME_TO_TEST)
     
     in_pw = false
@@ -66,7 +66,7 @@ describe "Test Suite" do
     output_list.each do |word|
       if (word.match /This state is in the PNW/) && !not_in_pw
         in_pw = true
-      elsif (word.match /You should move to the PNW; it’s great here!/ ) && !in_pw
+      elsif (word.match /You should move to the PNW.  It’s great here!/ ) && !in_pw
         not_in_pw = true
       end
     end
@@ -75,7 +75,7 @@ describe "Test Suite" do
     expect(not_in_pw).must_equal true
   end
 
-  it "will result in 'You should move to the PNW; it’s great here!' for pasta" do
+  it "will result in 'You should move to the PNW.  It’s great here!' for pasta" do
     output_list = user_input_helper('pasta', FILENAME_TO_TEST)
     
     in_pw = false
@@ -84,7 +84,7 @@ describe "Test Suite" do
     output_list.each do |word|
       if (word.match /This state is in the PNW/) && !not_in_pw
         in_pw = true
-      elsif (word.match /You should move to the PNW; it’s great here!/ ) && !in_pw
+      elsif (word.match /You should move to the PNW.  It’s great here!/ ) && !in_pw
         not_in_pw = true
       end
     end
