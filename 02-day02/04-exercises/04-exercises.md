@@ -20,7 +20,7 @@ View this content in Learn to see the interactive Challenge rendered. Instructio
 * language: text
 * id: 885d56b8-e509-40a8-9e59-76213eb5d4fa
 * title: passing or not passing
-* docker_directory_path: /custom-snippets/template-ruby
+* docker_directory_path: /custom-snippets/passing-not-passing
 * points: 1
 * topics: ruby conditionals
 
