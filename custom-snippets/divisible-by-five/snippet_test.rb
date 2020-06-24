@@ -28,15 +28,14 @@ describe "Test Suite" do
     multiple_of_five = false
 
     output_list.each do |word|
-      if (word.match /NOT A MULTIPLE OF 5/) && !multiple_of_five
+      if (word.match /NOT A MULTIPLE OF 5/)
         not_a_multiple_of_five = true
-      elsif (word.match /MULTIPLE OF 5/) && !not_a_multiple_of_five
+      elsif (word.match /MULTIPLE OF 5/)
         multiple_of_five = true
       end
     end
 
     expect(not_a_multiple_of_five).must_equal true
-    expect(multiple_of_five).must_equal false
   end
 
   it "will result in MULTIPLE OF 5 for 10" do
@@ -46,9 +45,9 @@ describe "Test Suite" do
     multiple_of_five = false
 
     output_list.each do |word|
-      if (word.match /NOT A MULTIPLE OF 5/) && !multiple_of_five
+      if (word.match /NOT A MULTIPLE OF 5/)
         not_a_multiple_of_five = true
-      elsif (word.match /MULTIPLE OF 5/) && !not_a_multiple_of_five
+      elsif (word.match /MULTIPLE OF 5/)
         multiple_of_five = true
       end
     end
@@ -64,9 +63,9 @@ describe "Test Suite" do
     multiple_of_five = false
 
     output_list.each do |word|
-      if (word.match /NOT A MULTIPLE OF 5/) && !multiple_of_five
+      if (word.match /NOT A MULTIPLE OF 5/)
         not_a_multiple_of_five = true
-      elsif (word.match /MULTIPLE OF 5/) && !not_a_multiple_of_five
+      elsif (word.match /MULTIPLE OF 5/)
         multiple_of_five = true
       end
     end
@@ -82,9 +81,9 @@ describe "Test Suite" do
     multiple_of_five = false
 
     output_list.each do |word|
-      if (word.match /NOT A MULTIPLE OF 5/) && !multiple_of_five
+      if (word.match /NOT A MULTIPLE OF 5/)
         not_a_multiple_of_five = true
-      elsif (word.match /MULTIPLE OF 5/) && !not_a_multiple_of_five
+      elsif (word.match /MULTIPLE OF 5/)
         multiple_of_five = true
       end
     end
