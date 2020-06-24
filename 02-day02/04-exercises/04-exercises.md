@@ -300,3 +300,76 @@ end
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
+
+
+### 5. Jersey Number
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+* type: custom-snippet
+* language: text
+* id: 675f80cd-5023-4d08-b326-0fadcdcd8dec
+* title: Jersey Number
+* docker_directory_path: /custom-snippets/jersey-number
+* points: 1
+* topics: ruby conditionals
+
+##### !question
+
+Prompt for a jersey number. If that number is 12, 71, or 80, print That number is retired from the Seattle Seahawks!, otherwise do nothing.
+
+Example Run:
+
+```
+Enter a number  ==> 11
+```
+
+Second Example Run
+
+```
+Enter a number  ==> 12
+That number is retired from the Seattle Seahawks!
+```
+
+Third Example Run
+
+```
+Enter a number  ==> 80
+That number is retired from the Seattle Seahawks!
+```
+
+
+##### !end-question
+
+##### !placeholder
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint 
+
+You will need an `if` with some `||` to check several possibilities
+
+##### !end-hint
+
+##### !explanation 
+
+A good solution would be:
+
+```ruby
+print "Enter a number  ==> "
+number = gets.chomp.to_i
+
+if number == 12 || number == 80 || number == 71
+  puts "That number is retired from the Seattle Seahawks!"
+end
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
