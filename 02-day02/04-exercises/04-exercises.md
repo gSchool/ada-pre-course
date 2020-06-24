@@ -76,7 +76,7 @@ end
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-### 1. Green-go
+### 2. Green-go
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
@@ -141,6 +141,82 @@ if text == "green"
   puts "GO"
 else
   puts "STOP"
+end
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+
+### 3. Even or Odd
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+* type: custom-snippet
+* language: text
+* id: 2a2db845-b534-48de-b26b-60e1ae3c6080
+* title: Even or odd
+* docker_directory_path: /custom-snippets/even-odd
+* points: 1
+* topics: ruby conditionals
+
+##### !question
+
+Prompt for a number. If the number is even, print EVEN, otherwise, print ODD.
+
+Example Run:
+
+```
+Enter a number  ==> 13
+ODD
+```
+
+Second Example Run
+
+```
+Enter a number  ==> 14
+EVEN
+```
+
+Third Example Run
+
+```
+Enter a number  ==> -20
+EVEN
+```
+
+
+##### !end-question
+
+##### !placeholder
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint 
+
+Remember the modulus operator?
+
+##### !end-hint
+
+##### !explanation 
+
+A good solution would be:
+
+```ruby
+print "Enter a number  ==> "
+number = gets.chomp.to_i
+
+if number % 2 == 0
+  puts "EVEN"
+else
+  puts "ODD"
 end
 ```
 
