@@ -716,8 +716,7 @@ else
   earnings = hours * pay
 end
 
-print "You earned $"
-sprintf('%.2f', earnings) 
+printf("You earned \$%.2f", earnings) 
 ```
 
 ##### !end-explanation
