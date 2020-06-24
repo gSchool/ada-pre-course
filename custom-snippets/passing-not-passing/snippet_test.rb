@@ -1,6 +1,5 @@
 require 'minitest/autorun'
 require 'minitest/reporters'
-require "pry"
 require_relative "./io_test_helpers"
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
