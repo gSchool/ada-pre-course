@@ -76,7 +76,7 @@ end
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-### 1. Passing or Not
+### 1. Green-go
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
@@ -84,8 +84,8 @@ end
 ### !challenge
 * type: custom-snippet
 * language: text
-* id: 885d56b8-e509-40a8-9e59-76213eb5d4fa
-* title: passing or not passing
+* id: 3b29e828-b904-46c8-afbc-19880da5731a
+* title: Green Go, other Stop
 * docker_directory_path: /custom-snippets/green-go
 * points: 1
 * topics: ruby conditionals
