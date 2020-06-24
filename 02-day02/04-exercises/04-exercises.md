@@ -235,7 +235,7 @@ end
 ### !challenge
 * type: custom-snippet
 * language: text
-* id: 2a2db845-b534-48de-b26b-60e1ae3c6080
+* id: 65a3a53b-bc7b-423f-af4b-41f67f075553
 * title: Even or odd
 * docker_directory_path: /custom-snippets/divisible-by-five
 * points: 1
