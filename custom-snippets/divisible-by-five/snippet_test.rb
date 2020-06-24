@@ -17,7 +17,7 @@ describe "Test Suite" do
     end
     $stdout = original_stdout
     
-    output_list = output.string.split(/\s/)
+    output_list = output.string.split(/\n/)
     return output_list
   end
 
