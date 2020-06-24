@@ -243,27 +243,27 @@ end
 
 ##### !question
 
-Prompt for a number. If the number is even, print EVEN, otherwise, print ODD.
+Prompt for a number. If the number is evenly divisible by 5, print MULTIPLE OF 5, otherwise, print NOT A MULTIPLE OF 5.
 
 Example Run:
 
 ```
 Enter a number  ==> 13
-ODD
+NOT A MULTIPLE OF 5
 ```
 
 Second Example Run
 
 ```
 Enter a number  ==> 14
-EVEN
+NOT A MULTIPLE OF 5
 ```
 
 Third Example Run
 
 ```
 Enter a number  ==> -20
-EVEN
+MULTIPLE OF 5
 ```
 
 
@@ -288,10 +288,10 @@ A good solution would be:
 print "Enter a number  ==> "
 number = gets.chomp.to_i
 
-if number % 2 == 0
-  puts "EVEN"
+if number % 5 == 0
+  puts "MULTIPLE OF 5"
 else
-  puts "ODD"
+  puts "NOT A MULTIPLE OF 5"
 end
 ```
 
