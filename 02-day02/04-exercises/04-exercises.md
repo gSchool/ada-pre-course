@@ -531,3 +531,197 @@ end
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
+### 8. Rate of Pay #1
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+* type: custom-snippet
+* language: text
+* id: d0c253ed-91e7-4e09-948e-228b33944ca5
+* title: Rate of Pay Part 1
+* docker_directory_path: /custom-snippets/rate-of-pay
+* points: 1
+* topics: ruby conditionals
+
+##### !question
+
+Prompt for rate of pay and hours worked. Calculate gross pay. Provide time-and-a-half for hours worked beyond 40 (e.g., if you get paid $10/hr and work 45 hours in a week, you would gross $475 (40 x 10 + 5 x 15).
+
+
+Example Run:
+
+```
+What is your rate of pay  ==> 21
+How many hours did you work ==> 10
+You earned $210.00
+```
+
+Second Example Run
+
+```
+What is your rate of pay  ==> 21
+How many hours did you work ==> 50
+You earned $1155.00
+```
+
+Third Example Run
+
+```
+What is your rate of pay  ==> 10
+How many hours did you work ==> 50
+You earned $550.00
+```
+
+Fourth Example Run
+
+```
+What is your rate of pay  ==> 0
+How many hours did you work ==> 50
+You earned $0.00
+```
+
+##### !end-question
+
+##### !placeholder
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint 
+
+The formula is hours * rate_of_pay + 0.5 * overtime * rate_of_pay
+
+##### !end-hint
+
+##### !explanation 
+
+A good solution would be:
+
+```ruby
+print "What is your rate of pay  ==> "
+pay = gets.chomp.to_f
+
+print "How many hours did you work ==> "
+hours = gets.chomp.to_f
+overtime = 0
+
+if hours > 40
+  overtime = hours - 40
+  hours -= overtime
+end
+
+if overtime > 0
+  earnings = hours * pay + overtime * 1.5 * pay
+else
+  earnings = hours * pay
+end
+
+printf("You earned $%.2f\n", earnings) 
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+### 9. Rate of Pay #2
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+* type: custom-snippet
+* language: text
+* id: cc468501-3309-419d-a689-1f5b4f5421c1
+* title: Rate of Pay Part 2
+* docker_directory_path: /custom-snippets/rate-of-pay2
+* points: 1
+* topics: ruby conditionals
+
+##### !question
+
+Rewrite the solution to the previous problem adding this modification: do not process any employee if their hours worked is greater than 60, instead display the message Please see manager.
+
+
+Example Run:
+
+```
+What is your rate of pay  ==> 21
+How many hours did you work ==> 10
+You earned $210.00
+```
+
+Second Example Run
+
+```
+What is your rate of pay  ==> 21
+How many hours did you work ==> 60
+You earned $1470.00
+```
+
+Third Example Run
+
+```
+What is your rate of pay  ==> 10
+How many hours did you work ==> 61
+Please see manager
+```
+
+Fourth Example Run
+
+```
+What is your rate of pay  ==> 0
+How many hours did you work ==> 50
+You earned $0.00
+```
+
+##### !end-question
+
+##### !placeholder
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint 
+
+The formula is hours * rate_of_pay + 0.5 * overtime * rate_of_pay
+
+##### !end-hint
+
+##### !explanation 
+
+A good solution would be:
+
+```ruby
+print "What is your rate of pay  ==> "
+pay = gets.chomp.to_f
+
+print "How many hours did you work ==> "
+hours = gets.chomp.to_f
+overtime = 0
+
+if hours > 40
+  overtime = hours - 40
+  hours -= overtime
+end
+
+if overtime > 0
+  earnings = hours * pay + overtime * 1.5 * pay
+else
+  earnings = hours * pay
+end
+
+print "You earned $"
+sprintf('%.2f', earnings) 
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
