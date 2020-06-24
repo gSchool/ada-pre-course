@@ -373,3 +373,77 @@ end
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
+### 6. The Pacific Northwest
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+* type: custom-snippet
+* language: text
+* id: b23321bd-3347-4d74-9b61-e71b8b98b608
+* title: The Pacific Northwest
+* docker_directory_path: /custom-snippets/pacific-nw
+* points: 1
+* topics: ruby conditionals
+
+##### !question
+
+Prompt for a state. If the state is Washington, Oregon, or Idaho, print This state is in the PNW, otherwise print `You should move to the PNW; it’s great here!`
+
+Example Run:
+
+```
+Enter a State  ==> Texas
+You should move to the PNW; it’s great here!
+```
+
+Second Example Run
+
+```
+Enter a State  ==> Washington
+This state is in the PNW
+```
+
+Third Example Run
+
+```
+Enter a State  ==> Idaho
+This state is in the PNW
+```
+
+
+##### !end-question
+
+##### !placeholder
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint 
+
+You will need an `if` with some `||` to check several possibilities
+
+##### !end-hint
+
+##### !explanation 
+
+A good solution would be:
+
+```ruby
+print "Enter a State  ==> "
+state = gets.chomp
+
+if state == "Washington" || state == "Idaho" || state == "Oregon"
+  puts "This state is in the PNW"
+else
+  puts "You should move to the PNW; it’s great here!"
+end
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
