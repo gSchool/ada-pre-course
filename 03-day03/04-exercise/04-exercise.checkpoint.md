@@ -43,3 +43,41 @@ You will need a loop, a while loop would make sense.
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
+* id: ab0e85e5-9e1b-427f-879d-212e4638bd4a
+* title: [text, a short question title]
+* docker_directory_path: /[text, the path to the folder with the Docker setup]
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+[markdown, your question]
+
+##### !end-question
+
+##### !placeholder
+
+[the code below is the starting code in the web editor]
+```
+function doSomething() {
+}
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
