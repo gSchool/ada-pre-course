@@ -108,3 +108,70 @@ puts "Player #{number}: Goose"
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 08a403f3-006c-4fe6-a8e6-54aaffa2b6c4
+* title: love-me love-me-not
+* docker_directory_path: /custom-snippets/love-me
+* points: 1
+* topics: iteration
+
+##### !question
+
+Write a program that allows a user to enter the number of petals on a flower. Then one by one, print “plucking petal #1: they love me!”. Alternate “They love me” and “They love me not” as well as increase the petal number for each petal.
+
+
+Example Run:
+
+```ruby
+Please enter the number of petals  => 5
+they love me!
+they love me not
+they love me!
+they love me not
+they love me!
+```
+
+##### !end-question
+
+##### !placeholder
+
+```
+print "Which player do you want to Goose? "
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+It would make sense to use a .times loop
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+```ruby
+print "Please enter the number of petals  => "
+number = gets.chomp.to_i
+
+number.times do |i|
+  if i % 2 == 0
+    puts "they love me!"
+  else
+    puts "they love me not"
+  end
+end
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
