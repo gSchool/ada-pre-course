@@ -178,6 +178,7 @@ end
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
+### !challenge
 
 * type: paragraph
 * id: b3e9832b-3efd-4bde-bb82-24b2dd135298
