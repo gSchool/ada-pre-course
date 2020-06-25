@@ -9,7 +9,7 @@
 
 * type: custom-snippet
 * language: ruby
-* id: 61cceb48-6ed3-4299-a142-ae2723496b7a
+* id: 38f60574-5e17-4e0b-b786-51b10a4b5982
 * title: Guessing Game
 * docker_directory_path:
 * points: 1
@@ -19,7 +19,7 @@
 
 Write a program that allows a user to play a guessing number game. Your program should generate a random number between 0 – 1000 (including 0, but not including 1000). Allow the user to make a guess until they guess the answer. After each guess you should print "higher" or "lower". When they guess it correctly print a winning message along with their total number of guesses.
 
-### This exercise is not autograded
+**This exercise is not autograded**
 
 This exercise is not autograded, your Jumpstart Instructor will provide feedback.
 
