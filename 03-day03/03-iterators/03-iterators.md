@@ -154,8 +154,6 @@ end
 
 ##### !placeholder
 
-[text, placeholder text for input field]
-
 ##### !end-placeholder
 
 <!-- other optional sections -->
