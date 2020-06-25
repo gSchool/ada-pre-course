@@ -2,10 +2,8 @@
 
 ## Definitions
 
-<dl>
-  <dt>Iterator</dt>
-  <dd>An object that traverses (i.e., iterates) over the elements in a collection (e.g., array) and usually does something with those elements</dd>
-</dl>
+* Iterator
+    * An object that traverses (i.e., iterates) over the elements in a collection (e.g., array) and usually does something with those elements
 
 ## Overview
 
