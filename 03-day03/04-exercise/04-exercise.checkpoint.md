@@ -143,7 +143,7 @@ they love me!
 ##### !placeholder
 
 ```
-print "Which player do you want to Goose? "
+print "Please enter the number of petals  => "
 ```
 
 ##### !end-placeholder
@@ -168,6 +168,111 @@ number.times do |i|
     puts "they love me not"
   end
 end
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+* type: paragraph
+* id: b3e9832b-3efd-4bde-bb82-24b2dd135298
+* title: Duplicate Entry
+* points: 1
+* topics: iteration
+
+##### !question
+
+You don't trust your users. Modify the program below to require the user to enter the same value twice in order to add that value to the total.
+
+**This is not a auto-graded assessment, your Jumpstart instructor will evaluate it**
+
+**Example Run**
+
+```
+Hello! We are going to total some numbers!
+Enter a negative number to quit.
+
+3
+3
+2
+2
+-1
+-1
+
+Result: 5
+```
+
+**Example Run Two**
+
+```
+Hello! We are going to total some numbers!
+Enter a negative number to quit.
+
+3
+1
+Entries do not match
+2
+2
+-1
+-1
+
+Result: 2
+```
+
+
+##### !end-question
+
+##### !placeholder
+
+```
+puts "Hello! We are going to total some numbers!"
+puts "Enter a negative number to quit."
+
+total = 0
+input = gets.chomp.to_i
+while input > -1
+  total += input
+  input = gets.chomp.to_i
+end
+
+puts "Result: #{total}"
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+```ruby
+puts "Hello! We are going to total some numbers!"
+puts "Enter a negative number to quit."
+
+total = 0
+input = gets.chomp.to_i
+while input > -1
+  puts "Please resubmit to verify"
+  input_two = gets.chomp.to_i
+  if input == input_two
+    total += input
+  else
+    puts "Entries do not match"
+  end
+
+  input = gets.chomp.to_i
+end
+
+puts "Result: #{total}"
 ```
 
 ##### !end-explanation
