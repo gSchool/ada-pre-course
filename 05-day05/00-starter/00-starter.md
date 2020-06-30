@@ -1,19 +1,8 @@
 # Day 5
 
 ## Prep Work
-* Review your [Student Account Generator Part 1](https://github.com/Ada-Developers-Academy/jump-start/blob/master/learning-to-code/arrays/assignments/account-generator.md) solution and be prepared to talk with others about your code
-* Review the [Array notes](https://github.com/Ada-Developers-Academy/jump-start/tree/master/learning-to-code/arrays) from JumpStart
-* Watch the [Day 5 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=646484ef-baaf-4352-9378-2f95849d2a51) (~20 minutes)
-* Review [lesson notes for Day 5](#lessons)
-* Complete the [exercises](#exercises) and be prepared to discuss it with others in class
 
-## Warm up
-* Share what you learned from our last two sessions about loops
-* Walk your partner though your Student Account Generator Part 1 code focusing on using programming vocabulary (e.g, arrays, index, value, blocks, loops, iterator, variable assignment)
 
-## Lessons
-* [nil](nil.md)
-* [Arrays](arrays.md)
 
 ## Exercises
 ### Required Problems

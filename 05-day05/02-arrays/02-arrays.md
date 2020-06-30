@@ -181,34 +181,416 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 
 ## Exercises
 
-1. Create an array which will store the square of each value between 2 and 5, inclusive.
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
 
-    ```ruby
-    list = []
-    (2..5).each do |i|
-      list.push(i * i)
-    end
-    ```
+### !challenge
 
-    ```ruby
-    list = Array.new(4) { |i| (i + 2) * (i + 2) }
-    ```
+* type: custom-snippet
+* language: ruby
+* id: 0746b75d-10ef-4c65-b3d9-511c376cc711
+* title: Square of Each Value
+* docker_directory_path: /custom-snippets/squares
+* points: 1
+* topics: arrays
 
-1. Given an array that contains three people, Ada Lovelace, Annie Easley, and Margaret Hamilton (1) Add one new person of your choice, (2) Output Annie Easley using the array, (3) Replace Ada Lovelace with Megan Smith
+##### !question
 
-    ```ruby
-    people = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-    people << "Grace Hopper"
-    puts people[1] # outputs Annie Easley
-    people[0] = "Megan Smith"
-    # list is now ["Megan Smith", "Annie Easley", "Margaret Hamilton", "Grace Hopper"]
-    ```
+Create an array which will store the square of each value between 2 and 5, inclusive.  Then print it with `puts "#{array}"`
 
-1. On paper, create an array which stores the names of people that inspire you. Then write down two different ways you can access the second-to-last name in your array?  
+##### !end-question
 
-1. On paper, create an array which stores the numbers 1 – 15. Then write down two different ways of accessing the middle number?  
+##### !placeholder
 
-1. On paper, write code that will create an array named powers_of_2, and stores the fist 10 powers of 2
+
+```
+array = []
+# Your code goes here
+
+puts "#{array}
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+You will need a loop, or to adjust the array initialization.
+
+##### !end-hint
+##### !explanation
+
+Two potential solutions:
+
+```ruby
+list = []
+(2..5).each do |i|
+  list.push(i * i)
+end
+```
+
+or 
+
+```ruby
+list = Array.new(4) { |i| (i + 2) * (i + 2) }
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: 9701bc66-9118-4f4a-897e-79a73de52ebf
+* title: Working with an array
+* docker_directory_path: /custom-snippets/array1
+* points: 1
+* topics: arrays
+
+##### !question
+
+Given the array below, named `list`, which contains three people, Ada Lovelace, Annie Easley, and Margaret Hamilton, add one new person of your choice, you can do this directly, no user input needed (no `gets.chomp`).
+
+**Put your code between the comments**
+
+##### !end-question
+
+##### !placeholder
+
+
+```
+def array_1
+  # your code here
+  list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+
+  
+
+  # end of your code
+  return list
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+Just put your code in between the comments.
+
+##### !end-hint
+
+
+##### !explanation
+
+One solution is below.
+
+```ruby
+  # your code here
+  list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+
+  list << "Erica Joy Baker"
+
+  # end of your code
+  return list
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: d3fd7b17-25a0-4f2e-beab-a4f9fd918f1c
+* title: Working with an array part 2
+* docker_directory_path: /custom-snippets/array2
+* points: 1
+* topics: arrays
+
+##### !question
+
+Given the array below, named `list`, which contains three people, Ada Lovelace, Annie Easley, and Margaret Hamilton, print out Annie Easley from the array using `puts`.
+
+**Put your code between the comments**
+
+##### !end-question
+
+##### !placeholder
+
+
+```
+def array_2
+  # your code here
+  list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+
+  
+
+  # end of your code
+  return list
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+Just put your code in between the comments.
+
+##### !end-hint
+
+
+##### !explanation
+
+One solution is below.
+
+```ruby
+  # your code here
+  list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+
+  puts list[1]
+
+  # end of your code
+  return list
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: c3ce4491-f0ad-48a3-9be6-d3f864659e28
+* title: Working with an array part 3
+* docker_directory_path: /custom-snippets/array3
+* points: 1
+* topics: arrays
+
+##### !question
+
+Given the array below, named `list`, which contains three people, Ada Lovelace, Annie Easley, and Margaret Hamilton, replace Ada Lovelace with Megan Smith.
+
+**Put your code between the comments**
+
+##### !end-question
+
+##### !placeholder
+
+
+```
+def array_3
+  # your code here
+  list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+
+  
+
+  # end of your code
+  return list
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+Just put your code in between the comments.
+
+##### !end-hint
+
+
+##### !explanation
+
+One solution is below.
+
+```ruby
+  # your code here
+  list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+
+  list[0] = "Megan Smith"
+
+  # end of your code
+  return list
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: paragraph
+* id: 7797286e-4ac7-44a5-8b13-1669a3e184b6
+* title: Array practice
+* points: 1
+* topics: array
+
+##### !question
+
+In the textbox below create an array which stores the names of people that inspire you. 
+
+Then write down two different ways you can access the second-to-last name in your array? 
+
+**This is not an autograded exercise.**
+
+##### !end-question
+
+##### !placeholder
+
+list = []
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+Remember you can use negative numbers to access the array from back to front.  For example -1 would get the last element of the array.  You can also use the `.length` field to find the length of the array and then length - 1 would be the last index.
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Potential solution:
+
+```ruby
+list = ["Dee Del Rosario", "Margaret Hamilton", "Kareem Abdul-Jabbar", "Martin Luther King Jr."]
+
+# Solution 1:
+list[-2]
+
+# Solution 2:
+list[list.length - 2]
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: paragraph
+* id: 5867e8f9-1788-4201-a0b0-31b9d7f92a3f
+* title: Array practice
+* points: 1
+* topics: array
+
+##### !question
+
+Create an array which stores the numbers 1 – 15. Then write down how to access the middle number? 
+
+**This is not an autograded exercise.**
+
+##### !end-question
+
+##### !placeholder
+
+list = []
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+Remember you can use negative numbers to access the array from back to front.  For example -1 would get the last element of the array.  You can also use the `.length` field to find the length of the array and then length - 1 would be the last index.
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Potential solution:
+
+```ruby
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+# Solution
+puts list[list.length / 2]
+
+# Alternative Solution
+puts list[7]
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
+* id: 750a3e74-9781-4145-bc6b-721029d11d21
+* title: Powers of two
+* docker_directory_path: /custom-snippets/powers-of-two
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+Write code that will create an array named powers_of_2, and stores the first 10 powers of 2
+
+##### !end-question
+
+##### !placeholder
+
+```ruby
+def powers_of_two
+  powers_of_2 = []
+  # Your code goes inside here:
+
+  # Your code ends above here
+
+  return powers_of_2
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+7. On paper,
 
 ## Resources
 
