@@ -13,7 +13,7 @@
 
 ##### !question
 
-What is a shell in programming?
+What is the terminal?
 
 ##### !end-question
 

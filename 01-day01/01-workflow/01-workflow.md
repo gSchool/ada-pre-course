@@ -28,6 +28,8 @@ You can also add the terminal application to your dock, by right-clicking on the
 
 There are a variety of keyboard combinations and commands you can use when using the terminal.
 
+You can even write programs to automate the terminal and thus the operating system, which is called **shell programming**.  
+
 ### The Mac Keyboard
 
 Macs have a number of special keys which are a little different from Windows.  You can read more about it on [keyshorts.com](https://keyshorts.com/blogs/blog/41999105-the-ultimate-guide-to-macbook-keyboard).  The control, alt/option and command keys are used for a variety of shortcuts in the terminal.
