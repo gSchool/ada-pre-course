@@ -60,9 +60,9 @@ Macs have a number of special keys which are a little different from Windows.  Y
 
 IRB is a terminal-based tool where you can run Ruby commands and see the results immediately.  It's great for experimenting with Ruby commands.  
 
-There are a few shortcut commands that are helpful to know.
-
 <iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=8fdf1e1d-c8e1-40d7-a639-abd60032162e&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" width=720 height=405 style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
+There are a few shortcut commands that are helpful to know.
 
 #### irb commands
 
@@ -76,12 +76,20 @@ There are a few shortcut commands that are helpful to know.
 
 You can run Ruby files from the terminal by typing `ruby` followed by the name of the file.  
 
+For example if you have a file named, `example_file.rb`, you could run the file from the terminal with the following.
+
+```bash
+$ ruby example_file.rb
+```
+
+
 ### VS Code
 
 <iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=9e5ed912-4961-49ed-b03a-abd60034e1b7&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" width=720 height=405 style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 * If [VS Code](https://code.visualstudio.com/) is a very extensible open-source editor which supports a variety of languages including Ruby, Python, and JavaScript.  
 * In VS Code, type `shift-command-p` and type **shell command to install the terminal shell command**.
+  * This only needs to be done once to allow you to launch VS code from the terminal
 * Now, to launch VS Code from terminal, type `code` followed by the file name or directory name
 
 ## Customizing Your Shell - Optional
@@ -90,7 +98,7 @@ You can run Ruby files from the terminal by typing `ruby` followed by the name o
 
 A shell is a set of commands and user interface for controlling an operating system via the terminal.  With newly purchased Macs the default shell is zsh, while older macs use an older version of the Bash shell.
 
-With newly purchased Macs the default shell is zsh, while older macs use an older version of the Bash.  You can read more about [zsh vs bash](https://dev.to/jasmin/a-brief-difference-between-zsh-and-bash-5ebp) if you are interested.  
+You can read more about [zsh vs bash](https://dev.to/jasmin/a-brief-difference-between-zsh-and-bash-5ebp) if you are interested.  
 
 To set your shell to zsh first start terminal and then go to preferences.
 
@@ -102,7 +110,9 @@ Then set the **Shells open with:** to `/bin/zsh`.
 
 ### Oh My Zsh
 
-Zsh is very customizable and there's a great community-driven framework for managing zsh configurations and provides thousands of helper functions, plugins and themes.  The most amazing thing is that **it comes with git integration!**
+Zsh is very customizable environent in zsh and there's a great community-driven framework for managing zsh configurations providing thousands of helper functions, plugins and themes.  Basically it lets you customize the look and feel of the terminal and add custom commands and shortcuts.  The most amazing thing is that **it comes with git integration!**
+
+Using **Oh My Zsh** is completely optional at Ada, but it can be handy for it's support of git and extensibility.  You are welcome to install it if you are interested.
 
 You can install it with:
 
