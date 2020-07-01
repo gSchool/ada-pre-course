@@ -1,23 +1,15 @@
 # Day 4
 
-## Prep Work
+For today's lessons you will work on better understanding booleans, more advanced looping and be introduced to arrays.
 
-* Review the previous lessons
-* Watch [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f) (~8 minutes)
-* Pre-read this day's lessons
+## Learning Goals
 
-## Debrief
+By the end of these lessons you should be able to:
 
-* What new things did you learn today?
-* What topics are you still struggling with?
-* What did you especially enjoy about today's class?
-* What can be improved for future classes?
+* Understand and be able to use iterators and loops in coding problems
+* Understand how to simplify boolean expressions
+* Create and use arrays in programming problems to store data
 
 ## Resources
 
 * [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f)
-
-## Homework
-
-* Complete today's exercises
-* Pre-read the next set of exercises

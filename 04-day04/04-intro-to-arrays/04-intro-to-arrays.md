@@ -74,7 +74,7 @@ Hello Dan!
 
 The `.each` method will iterate through the array.  On the 1st iteration `name` becomes "Ada", on the second iteration `name` becomes "Charles" and so on, until on the last iteration `name` will be set to "Dan".  
 
-**Exercise**
+**Optional Exercise**
 
 Fill in the missing code to calculate an average of the values in the list.  **Hint** what data type should you use?
 

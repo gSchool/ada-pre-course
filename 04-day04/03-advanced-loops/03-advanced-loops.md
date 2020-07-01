@@ -1,11 +1,14 @@
 # Advanced Loops
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=39c011c5-5d58-4f15-973a-7a4ffb2ce5c1&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Fencepost Problems
 
 * Sometimes illustrated as `|-|-|-|-|` with the `|` representing a fence post and the `-` representing the wire of the fence
 * The idea is that you need 1 more post than you do wire sections; you begin with a post and end with a post
 * Also sometimes called a _loop-and-a-half_
 * Common solutions usually have the loop run one less times than needed and then handle the last post outside of the loop
+
 
 ### Examples
 
