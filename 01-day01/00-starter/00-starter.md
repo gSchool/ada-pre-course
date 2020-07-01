@@ -46,6 +46,10 @@ In this course we want you to learn to do the following:
 
 We also want you to learn a bit of workflow and learn to use [VS Code](https://code.visualstudio.com/) to write your programs.
 
+## Learning HTML & CSS 
+
+Beyond this course, we also want you to take the free [Udacity HTML & CSS](https://www.udacity.com/course/intro-to-html-and-css--ud001)  course in preparation for our HTML/CSS unit.
+
 ## Today's Lesson
 
 Today's lesson is about workflow, Ruby style and basic types and operations.  This should feel like review and give you a smooth start.  Try to work through things a bit at a time and feel free to walk away for a bit when you are stuck, or shout out for support on Slack.  
