@@ -10,6 +10,8 @@ As you complete each assignment you will recieve feedback, some of which is auto
 
 Some exercises here are multiple choice, some ask you to write code into a coding window, while others ask you to submit a link to your solution.  Most of the exercises here have tests to automatically tell you if you solved it or not.  Others require an instructor to review your code.  Be patient and we will try to deliver feedback as promptly as possible.  
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=39a4c46c-b6f8-497d-aaa1-abeb01103379&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 <!-- available callout types: info, success, warning, danger, secondary  -->
 ### !callout-info
 
@@ -59,7 +61,7 @@ As you proceed through this course you will be asked to complete a variety of co
 ### !challenge
 
 * type: custom-snippet
-* language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
+* language: ruby
 * id: bb3f699b-e1cb-466c-a1f3-b5efa7cf4ffd
 * title: Hello world
 * docker_directory_path: /custom-snippets/hello-world
