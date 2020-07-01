@@ -60,7 +60,7 @@ You will need a loop, a while loop would make sense.
 ### !challenge
 
 * type: custom-snippet
-* language: Ruby
+* language: ruby
 * id: ab0e85e5-9e1b-427f-879d-212e4638bd4a
 * title: Duck Duck Goose
 * docker_directory_path: /custom-snippets/duck-duck-goose
@@ -267,7 +267,7 @@ puts "Result: #{total}"
 
 ##### !placeholder
 
-[text, placeholder text for the input field]
+Link to your code
 
 ##### !end-placeholder
 
