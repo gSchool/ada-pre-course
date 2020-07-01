@@ -186,12 +186,14 @@ end
 
 <!-- ======================= END CHALLENGE ======================= -->
 
+
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
+
 ### !challenge
 
-* type: paragraph
-* id: b3e9832b-3efd-4bde-bb82-24b2dd135298
+* type: project
+* id: 070639c6-dc67-4573-a562-3c145031346d
 * title: Duplicate Entry
 * points: 1
 * topics: iteration
@@ -235,12 +237,10 @@ Entries do not match
 Result: 2
 ```
 
+Starter Code:
 
-##### !end-question
+```ruby
 
-##### !placeholder
-
-```
 puts "Hello! We are going to total some numbers!"
 puts "Enter a negative number to quit."
 
@@ -254,15 +254,15 @@ end
 puts "Result: #{total}"
 ```
 
+
+##### !end-question
+
+##### !placeholder
+
+[text, placeholder text for the input field]
+
 ##### !end-placeholder
 
-<!-- other optional sections -->
-##### !hint
-
-
-
-##### !end-hint
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
 ```ruby
