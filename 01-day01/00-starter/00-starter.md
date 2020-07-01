@@ -27,3 +27,27 @@ In this course you can always resubmit work.  If you want a 2nd-round of instruc
 You **must** complete the course on Monday August 24th to attend Ada Cohort 14.
 
 ### !end-callout
+
+## Days
+
+The course is designed with days to match the 6-day in-person Pre-Ada sessions for students determined to need a bit of additional support called Jump Start Live.  If you want to attend Jump Start Live sessions, you can request to do so, but space is limited and admission is based on need.
+
+## Learning Goals for the Course
+
+In this course we want you to learn to do the following:
+
+*  Consistently follow [Ruby style practices](https://github.com/rubocop-hq/ruby-style-guide)
+*  Understand the of order of operations reflected in use of relational and logical operators
+*  Understand and use complex conditional statements
+*  Understand and use iterators and loops
+*  Understand and use arrays along with loops
+*  Understand and use hashes along with loops
+*  Understand and use arrays and hashes together - nested data structures with loops
+
+We also want you to learn a bit of workflow and learn to use [VS Code](https://code.visualstudio.com/) to write your programs.
+
+## Today's Lesson
+
+Today's lesson is about workflow, Ruby style and basic types and operations.  This should feel like review and give you a smooth start.  Try to work through things a bit at a time and feel free to walk away for a bit when you are stuck, or shout out for support on Slack.  
+
+We'll let you get started...
