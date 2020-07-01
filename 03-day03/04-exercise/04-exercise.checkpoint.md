@@ -19,7 +19,7 @@ The item below is not automatically graded, it's just too hard to automatically 
 * type: project
 * id: fb3b7a35-f62f-4c1a-b424-78cfb41f1e22
 * title: Number Guessing Game
-* points: [1] (optional, the number of points for scoring as a checkpoint)
+* points: 1
 * topics: Loops, Conditionals
 
 ##### !question
