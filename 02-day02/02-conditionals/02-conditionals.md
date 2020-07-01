@@ -21,6 +21,10 @@ end
 
 An if statement is made of the keyword `if` a boolean conditional like `x < 3` and then code to run when that condition is true.
 
+The flow of the program would look like this:
+
+![Digram of a general if statement](iamges/../images/decision-making.png)
+
 
 ## `if`/`elsif`/`else` Statements
 
@@ -84,6 +88,10 @@ end
 ```
 
 If you user enters 35, they will get "Have a drink!", if they enter 19, the program will output "You can't drink but have you voted yet?", and if they put a number less than 16, they will get "Would you like some milk?"  This lets our programs do different things for different values.
+
+You can also picture it with the following diagram.
+
+![Diagram of if and elsif conditionals](images/if-elseif.jpg)
 
 ## Postfix Conditional
 
