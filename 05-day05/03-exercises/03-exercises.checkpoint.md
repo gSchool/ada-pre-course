@@ -70,7 +70,7 @@ end
 * language: ruby
 * id: 65b4217a-1a34-4ec4-9969-5d8120f38eab
 * title: Array of Booleans
-* docker_directory_path: /custom-snippets/array_boolean
+* docker_directory_path: /custom-snippets/array_booleans
 * points: 1
 * topics: arrays
 
