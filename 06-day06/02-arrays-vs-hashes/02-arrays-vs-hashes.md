@@ -156,7 +156,7 @@ A hash must start with index/key...
 
 ##### !answer
 
-* Anything
+* It could be almost anything
 
 ##### !end-answer
 
