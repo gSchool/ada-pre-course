@@ -150,6 +150,7 @@ Submit a link to your code, either a [repl.it](https://repl.it) link, a [gist](h
 
 ##### !placeholder
 
+Link to your code
 
 ##### !end-placeholder
 
