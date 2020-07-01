@@ -556,7 +556,7 @@ puts list[7]
 * language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
 * id: 750a3e74-9781-4145-bc6b-721029d11d21
 * title: Powers of two
-* docker_directory_path: /custom-snippets/powers-of-two
+* docker_directory_path: /custom-snippets/squares
 <!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
 <!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
 
