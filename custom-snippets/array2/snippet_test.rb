@@ -40,7 +40,7 @@ describe "Test Suite" do
     match = false
 
     output.each do |line|
-      match = match || line.include? "Annie Easley"
+      match = match || line.include?("Annie Easley")
     end
 
     expect(match).must_equal true
