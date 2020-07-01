@@ -4,16 +4,18 @@
 
 Scope in programming defines when something (usually a variable) is visible to something else. In regards to scope of variables, the scope defines what knows about and can access that variable.
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=d9f0f22c-607a-4186-b5f3-1e62a055a317&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Variable types and their scope
 
 You will not need to know about most of these until a few weeks into Ada, but it's important to have a general idea about the different types of variables and their scope. You should understand local variables and their scope by the end of JumpStart Live.
 
-| Variable type     | Syntax       | Scope                                                                 |
-| :---------------- | :------------- | :-------------------------------------------------------------------- |
-| Class variable    | `@@name`     | Visible to the class, and sub classes                                 |
-| Instance variable | `@name`      | Visible to a specific object, and the instance methods of that object |
-| Global variable   | `$name`      | Visible to everything in the file                                     |
-| Local variable    | `name`       | Depends!                                                              |
+| Variable type     | Syntax   | Scope                                                                 |
+| :---------------- | :------- | :-------------------------------------------------------------------- |
+| Class variable    | `@@name` | Visible to the class, and sub classes                                 |
+| Instance variable | `@name`  | Visible to a specific object, and the instance methods of that object |
+| Global variable   | `$name`  | Visible to everything in the file                                     |
+| Local variable    | `name`   | Depends!                                                              |
 
 ## Local variables and scope
 

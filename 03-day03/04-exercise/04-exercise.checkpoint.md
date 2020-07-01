@@ -1,5 +1,14 @@
 # Looping & Scope Exercises
 
+<!-- available callout types: info, success, warning, danger, secondary  -->
+### !callout-warning
+
+## NOT Automatically Graded
+
+The item below is not automatically graded, it's just too hard to automatically grade random data.  
+
+### !end-callout
+
 ## 1.  Number Guessing Game
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
@@ -7,38 +16,39 @@
 
 ### !challenge
 
-* type: paragraph
-* id: f0b6c384-04d4-4688-ab82-3c2666d2bbab
+* type: project
+* id: fb3b7a35-f62f-4c1a-b424-78cfb41f1e22
 * title: Number Guessing Game
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: [1] (optional, the number of points for scoring as a checkpoint)
+* topics: Loops, Conditionals
 
 ##### !question
+
 
 Write a program that allows a user to play a guessing number game. Your program should generate a random number between 0 – 1000 (including 0, but not including 1000). Allow the user to make a guess until they guess the answer. After each guess you should print "higher" or "lower". When they guess it correctly print a winning message along with their total number of guesses.
 
 **This exercise is not autograded**
 
-This exercise is not autograded, your Jumpstart Instructor will provide feedback.  Just paste the code into the textbox below.
+Submit a link to your code, either a [repl.it](https://repl.it) link, a [gist](https://gist.github.com), or a github repository.  Your instructor will provide feedback.
 
 ##### !end-question
 
 ##### !placeholder
 
-```ruby
-# your code here
-```
-
+Link to your submission
 
 ##### !end-placeholder
 
-<!-- other optional sections -->
 ##### !hint
 
 You will need a loop, a while loop would make sense.
 
 ##### !end-hint
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
 
 ### !end-challenge
 
@@ -50,11 +60,11 @@ You will need a loop, a while loop would make sense.
 ### !challenge
 
 * type: custom-snippet
-* language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
+* language: Ruby
 * id: ab0e85e5-9e1b-427f-879d-212e4638bd4a
-* title: [text, a short question title]
+* title: Duck Duck Goose
 * docker_directory_path: /custom-snippets/duck-duck-goose
-* points: [1] (optional, the number of points for scoring as a checkpoint)
+* points: 1
 * topics: iteration
 
 ##### !question
