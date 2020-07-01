@@ -42,6 +42,13 @@ Please enter a number ==> 60
 NOT PASSING
 ```
 
+Third Example Run
+
+```
+Please enter a number ==> 70
+NOT PASSING
+```
+
 ##### !end-question
 
 ##### !placeholder
@@ -390,7 +397,7 @@ end
 
 ##### !question
 
-Prompt for a state. If the state is Washington, Oregon, or Idaho, print This state is in the PNW, otherwise print `You should move to the PNW.  It’s great here!`
+Prompt for a state. If the state is Washington, Oregon, or Idaho, print **This state is in the PNW**, otherwise print `You should move to the PNW.  It’s great here!`
 
 Example Run:
 
@@ -417,6 +424,11 @@ This state is in the PNW
 ##### !end-question
 
 ##### !placeholder
+
+```ruby
+print "Enter a State  ==> "
+state = gets.chomp
+```
 
 ##### !end-placeholder
 
@@ -497,6 +509,11 @@ Please enter a drink size (SHORT, TALL, GRANDE or VENTI)  ==> Big
 ##### !end-question
 
 ##### !placeholder
+
+```ruby
+print "Please enter a drink size (SHORT, TALL, GRANDE or VENTI)  ==> "
+size = gets.chomp.upcase
+```
 
 ##### !end-placeholder
 

@@ -114,28 +114,28 @@ puts "Drink more water!" unless drink == "water"
 ```ruby
 grade = gets.chomp
 case grade
-when "A"
-  puts "Good job"
-when "B"
-  puts "Okay job"
-when "C"
-  puts "You did a job"
-when "D"
-  puts "You might have to do the job again"
-when "E"
-  puts "You have to do the job again"
+  when "A"
+    puts "Good job"
+  when "B"
+    puts "Okay job"
+  when "C"
+    puts "You did a job"
+  when "D"
+    puts "You might have to do the job again"
+  when "E"
+    puts "You have to do the job again"
 end
 ```
 
 ```ruby
 grade = gets.chomp
 case grade
-when "A", "B", "C"
-  puts "You passed"
-when "D"
-  puts "You barely passed"
-when "E"
-  puts "You did not pass"
+  when "A", "B", "C"
+    puts "You passed"
+  when "D"
+    puts "You barely passed"
+  when "E"
+    puts "You did not pass"
 end
 ```
 
