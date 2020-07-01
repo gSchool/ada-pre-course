@@ -1,9 +1,6 @@
 # Day 3
 
-## Prep Work
-
-* Review today's lessons
-* Complete the checkpoint
+For today's lessons you will work on loops and variable scope with a longer set of exercises.
 
 ## Goals
 
@@ -13,7 +10,5 @@
 ## Resources
 
 * [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339)
-
-## Homework
 
 

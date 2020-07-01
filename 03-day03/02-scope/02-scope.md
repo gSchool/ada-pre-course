@@ -8,12 +8,12 @@ Scope in programming defines when something (usually a variable) is visible to s
 
 You will not need to know about most of these until a few weeks into Ada, but it's important to have a general idea about the different types of variables and their scope. You should understand local variables and their scope by the end of JumpStart Live.
 
-| Variable type     | Syntax   | Scope                                                                 |
-| :---------------- | :--------- | :-------------------------------------------------------------------- |
-| Class variable    | `@@name` | Visible to the class, and sub classes                                 |
-| Instance variable | `@name`  | Visible to a specific object, and the instance methods of that object |
-| Global variable   | `$name`  | Visible to everything in the file                                     |
-| Local variable    | `name`   | Depends!                                                              |
+| Variable type     | Syntax       | Scope                                                                 |
+| :---------------- | :------------- | :-------------------------------------------------------------------- |
+| Class variable    | `@@name`     | Visible to the class, and sub classes                                 |
+| Instance variable | `@name`      | Visible to a specific object, and the instance methods of that object |
+| Global variable   | `$name`      | Visible to everything in the file                                     |
+| Local variable    | `name`       | Depends!                                                              |
 
 ## Local variables and scope
 

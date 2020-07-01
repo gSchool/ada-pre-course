@@ -1,14 +1,16 @@
 # Loops
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=8e72dc31-0a75-4bd8-9db5-0e8b322cb26d&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Definitions
 
-* Loop
+* **Loop**
   * Repeating a sequence of statements; telling the program to do something a certain number of times, or until a certain condition is met
-* Infinite loop
+* **Infinite loop**
   * A loop that runs until you kill the program
-* Sentinel-controlled loop
+* **Sentinel-controlled loop**
   * When the number of loops cannot be determined prior to loop execution (e.g, while, until)
-* Counter-controlled loop
+* **Counter-controlled loop**
   * When the number of loops can be determined prior to loop execution (e.g, times)
 
 ## Sentinel-controlled Loops
@@ -16,8 +18,6 @@
 ### `while` loop
 
 A `while` loop executes code over and over again, while a condition is true.
-
-* Executes code over and over again, while a condition is true
 
 In the example below this loop will run while the number input with `gets.chomp` is not equal to `rand_num.  
 
@@ -34,7 +34,7 @@ end
 ### `until` loop
 
 
-`until` loops are similar to `while` loops except that they execute code over and over again, until the condition is true, so as long as the condition is false. 
+`until` loops are similar to `while` loops except that they execute code over and over again, until the condition is true.  While loops repeat while the condition is true, where until loops repeat as long as the condition is false. 
 
 ```ruby
 # code syntax
