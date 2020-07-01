@@ -1,10 +1,30 @@
 # Conditionals
 
-Conditionals are a programming construct that will allow you to control the flow of a program through branching (they allow your program to make decisions)
+Conditionals are a programming construct that will allow you to control the flow of a program through branching (they allow your program to make decisions).
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=22e94763-7a38-4237-a39b-96154f090cbf&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
+## Terms
+
+* **Conditional** -  An expression that evaluates to a truthy or falsy value
+  * Typically a conditional expression just evalutes to true or false
+  * For example `age < 21` evaluates to `true` when `age` is 20 and `false` when `age` is 21
+* **Truthy** - Any value in Ruby which is neither `false`, or `nil`
+* **Falsy** - Either `false` or `nil`
+
+```ruby
+if x < 3
+  # This code runs if the condition above is true
+  puts "x is less than 3"
+end
+```
+
+An if statement is made of the keyword `if` a boolean conditional like `x < 3` and then code to run when that condition is true.
+
 
 ## `if`/`elsif`/`else` Statements
 
-* `elsif` and `else` statements can only be used when paired with an if
+`elsif` and `else` statements can only be used when paired with an if
 
 ```ruby
 # independent tests; not exclusive
@@ -46,6 +66,25 @@ else
 end
 ```
 
+So for example we could write:
+
+```ruby
+puts "How old are you?" 
+age = gets.chomp.to_f
+
+if age >= 21
+  puts "Have a drink!"
+elsif age >= 18
+  puts "You can't drink but have you voted yet?"
+elsif age >= 16
+  puts "Would you consider being our designated driver?"
+else 
+  puts "Would you like some milk?
+end
+```
+
+If you user enters 35, they will get "Have a drink!", if they enter 19, the program will output "You can't drink but have you voted yet?", and if they put a number less than 16, they will get "Would you like some milk?"  This lets our programs do different things for different values.
+
 ## Postfix Conditional
 
 A way to shorten your code, when you only have one test to perform.
@@ -62,7 +101,7 @@ puts "Drink more water!" unless drink == "water"
 
 ## Case Statements
 
-* A good option when you are wanting to test a number of cases on a single variable
+* A good option when you are wanting to test a number of exact matches on a single variable
 
 ```ruby
 grade = gets.chomp
