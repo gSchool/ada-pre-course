@@ -1,6 +1,11 @@
 # nil
 
+`nil` is the absence of value in a Ruby variable.  It symbolically means nothing.  
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=14459006-e389-45e7-b996-98f2fb15f4d4&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Overview
+
 * Everything in Ruby is an object (even `nil` is an object)
 * `nil` is the default value of many variables when they are first created and before you store something else in them
 * To check if something is `nil` you can use the `nil?` method

@@ -2,6 +2,8 @@
 
 Arrays are ordered collections of data that can be accessed with a 0-based index. Arrays are also part of a family of data structures, data structures organize and store information.
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=5fb869d2-db52-4cd2-a1cc-238e0e084fa5&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Why Arrays?
 
 Instead of having to create individual variables, arrays are often used to group data together and make it easy to access.
@@ -207,7 +209,7 @@ Create an array which will store the square of each value between 2 and 5, inclu
 array = []
 # Your code goes here
 
-puts "#{array}
+puts "#{array}"
 ```
 
 ##### !end-placeholder
@@ -589,8 +591,6 @@ end
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
-
-7. On paper,
 
 ## Resources
 
