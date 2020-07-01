@@ -20,26 +20,7 @@ describe "Test Suite" do
     output_list = output.string.split(/\s/)
     return output_list
   end
-
-  it "will result in ODD for 13" do
-    output_list = user_input_helper('13', FILENAME_TO_TEST)
-    puts output_list
-    
-    includes_odd = false
-    includes_even = false
-
-    output_list.each do |word|
-      if (word.match /EVEN/)
-        includes_even = true
-      elsif (word.match /ODD/)
-        includes_odd = true
-      end
-    end
-
-    expect(includes_even).must_equal false
-    expect(includes_odd).must_equal true
-  end
-
+  
   it "will print hello," do
     output_list = user_input_helper('', FILENAME_TO_TEST)
     
