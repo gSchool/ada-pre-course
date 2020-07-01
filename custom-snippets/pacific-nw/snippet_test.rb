@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'minitest/autorun'
 require 'minitest/reporters'
 require_relative "./io_test_helpers"
@@ -13,7 +14,9 @@ describe "Test Suite" do
     original_stdout = $stdout
     $stdout = output
     simulate_stdin(given_input) do
-      eval File.read(filename)
+      line = File.read(filename)
+      puts line
+      eval line
     end
     $stdout = original_stdout
     
