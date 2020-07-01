@@ -14,7 +14,7 @@ describe "Test Suite" do
     original_stdout = $stdout
     $stdout = output
     simulate_stdin(given_input) do
-      line = File.read(filename)
+      line = File.read(filename).force_encoding("utf-8")
       puts line
       eval line
     end
