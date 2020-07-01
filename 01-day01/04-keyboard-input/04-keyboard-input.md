@@ -2,6 +2,8 @@
 
 Keyboard input is a way to accept input from the user, when running the program in Terminal.
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=9c2c9fdc-19e6-4e37-b5dc-6a57054a83ec&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ### `gets`
 
 `gets` accepts a single line of data from the keyboard. A line is something that ends in `\n`. `gets` is short for _get string_ which means whatever the user enters (even if it is a number) will be stored as a string
@@ -47,6 +49,17 @@ puts "a".to_f		# prints 0.0
   num = gets.chomp.to_i
   puts "You entered #{num}, #{num} to the power of 2 is #{num ** 2}"
 end
+```
+
+Output:
+
+```bash
+Enter a number: 1
+You entered 1, 1 to the power of 2 is 1
+Enter a number: 2
+You entered 2, 2 to the power of 2 is 4
+Enter a number: 3
+You entered 3, 3 to the power of 2 is 9
 ```
 
 ### References

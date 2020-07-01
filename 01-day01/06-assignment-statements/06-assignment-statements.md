@@ -1,7 +1,9 @@
 # Assignment Statements
 
 
-Understanding how to read and use assignment statements is a critical skill in programming
+Understanding how to read and use assignment statements is a critical skill in programming.
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=7d4167a7-8bc9-4d38-b58a-0cf78392cc2b&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ### Reading Assignment Statements
 

@@ -6,6 +6,8 @@ Strings in Ruby are objects that hold a sequence of characters. You can create a
 
 If you use double quotes, you can also use string interpolation and escape sequences. If you use single quotes you cannot use string interpolation, and you can only use the escape sequence `\\`.
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=f78798dc-c888-4615-befd-966edf9e165b&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ### Common Escape Sequences
 
 | Escape Sequence | Description                              |

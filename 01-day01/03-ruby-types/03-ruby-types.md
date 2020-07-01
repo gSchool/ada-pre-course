@@ -1,5 +1,7 @@
 # Ruby Types
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=0d255100-dfac-4d62-8f0c-aa5b0031ed0a&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 Everything in Ruby is an object. There are 7 data types you should know about now.
 
 | Data Type | Description                                    | Example               |
@@ -12,11 +14,14 @@ Everything in Ruby is an object. There are 7 data types you should know about no
 | Hash      | A set of key, value pairs                      | `{ A: 2, B: 3, C: 1}` |
 | Range     | A set of values with a beginning and an end    | `(2..6)`              |
 
-> Fixnum is another name for Integer. Ruby version 2.4.0 introduced the term
-> Integer, so if your ruby version is at least 2.4.0, use Integer. Otherwise
-> use Fixnum. You can check your version by typing `ruby --version` in the
-> terminal.
+<!-- available callout types: info, success, warning, danger, secondary  -->
+### !callout-info
 
+## Fixnum
+
+Fixnum is another name for Integer. Ruby version 2.4.0 introduced the term Integer, so if your ruby version is at least 2.4.0, use Integer. Otherwise use Fixnum. You can check your version by typing `ruby --version` in the terminal.
+
+### !end-callout
 
 ### Determining the type
 To determine the type of an object you can use `.class`
