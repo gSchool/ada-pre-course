@@ -22,9 +22,10 @@ In this course you can always resubmit work.  If you want a 2nd-round of instruc
 <!-- available callout types: info, success, warning, danger, secondary  -->
 ### !callout-danger
 
-## Due August 24th 2020
+## Due Dates
 
-You **must** complete the course on Monday August 24th to attend Ada Cohort 14.
+* You should complete Days 1-3 by **August 11th**
+* You **must** complete the entire course on Monday August 24th to attend Ada Cohort 14.
 
 ### !end-callout
 
@@ -45,6 +46,100 @@ In this course we want you to learn to do the following:
 *  Understand and use arrays and hashes together - nested data structures with loops
 
 We also want you to learn a bit of workflow and learn to use [VS Code](https://code.visualstudio.com/) to write your programs.
+
+## Coding Exercises
+
+### Tested Code Snippets
+
+As you proceed through this course you will be asked to complete a variety of coding challenges.  Put your code into the text areas provided and when you submit the exercise many will be automatically tested and provide you feedback.  Try the exercise below.
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
+* id: bb3f699b-e1cb-466c-a1f3-b5efa7cf4ffd
+* title: Hello world
+* docker_directory_path: /custom-snippets/hello-world
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+Write a program which prints "Hello, World!"
+
+##### !end-question
+
+##### !placeholder
+
+puts ""
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint
+
+Remember the comma and exclamation point.
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+A solution could be:  
+
+```ruby
+puts "Hello, World!"
+```
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+### Links to Code
+
+Other programming exercises called Project Challenges will ask you to submit a link to code either in [repl.it](https://repl.it) or a [Gist](https://gist.github.com).
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: project
+* id: 3680ae6f-8fe0-4169-a6c9-6129b9da492e
+* title: Example Project Challenge
+* points: 1
+* topics: example
+
+##### !question
+
+Create a Hello World Application on [Repl.it](https://repl.it), [Gist](https://gist.github.com) or a [github repository](https://github.com/) and submit a link to your submission.
+
+##### !end-question
+
+##### !placeholder
+
+Place your link here
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+##### !hint 
+
+You can learn [how to create a gist](https://docs.github.com/en/github/writing-on-github/creating-gists) here.
+
+##### !end-hint
+
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 
 ## Learning HTML & CSS 
 
