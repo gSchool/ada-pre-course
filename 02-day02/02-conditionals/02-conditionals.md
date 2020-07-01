@@ -23,7 +23,7 @@ An if statement is made of the keyword `if` a boolean conditional like `x < 3` a
 
 The flow of the program would look like this:
 
-![Digram of a general if statement](iamges/../images/decision-making.png)
+![Digram of a general if statement](images/decision-making.png)
 
 
 ## `if`/`elsif`/`else` Statements
