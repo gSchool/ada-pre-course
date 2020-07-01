@@ -5,7 +5,7 @@ Understanding how to read and use assignment statements is a critical skill in p
 
 <iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=7d4167a7-8bc9-4d38-b58a-0cf78392cc2b&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
-### Reading Assignment Statements
+## Reading Assignment Statements
 
 * Assignment statements are read from right-to-left, not from left-to-right
 * Use phrases like _assigns_, or _stores the value_, instead of _equals_, or _equal to_
@@ -27,17 +27,76 @@ x = 1
 y = x
 ```
 
-#### Practice Reading and Evaluating
+### Practice Reading and Evaluating
 
-1. What is the value of x, after the following code is executed?
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
 
-	```ruby
-	x = 2
-	x = x + 3
-	x = x * 2
-	```
+### !challenge
 
-2. What are the values of x, and y, after the following code is executed?
+* type: short-answer
+* id: c5b8be0e-17df-4546-b80f-6b9593a47815
+* title: Assignment Statement Question 1
+* points: 1
+* topics: assignment statement
+
+##### !question
+
+What is the value of x, after the following code is executed?
+
+```ruby
+x = 3
+y = x
+x = x - 7
+y = y - 1
+```
+
+##### !end-question
+
+##### !placeholder
+
+
+
+##### !end-placeholder
+
+##### !answer
+
+-4
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+Look at lines 1 and 3.
+
+##### !end-hint
+
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+3 minus 7 is -4
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 25642e8f-e5ac-415d-ba59-bd1017e8dc3a
+* title: Assignment Statement 2
+* points: 1
+* topics: assignment statement
+
+##### !question
+
+ What is the value of y, after the following code is executed?
 
 	```ruby
 	x = 3
@@ -46,7 +105,39 @@ y = x
 	y = y - 1
 	```
 
-### Compound Assignment Statements
+##### !end-question
+
+##### !placeholder
+
+
+
+##### !end-placeholder
+
+##### !answer
+
+2
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+So y is assigned to 3 and then what do you do to y?
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation 
+
+3 minus 1 is 2
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+## Compound Assignment Statements
 
 To make your code shorter, you can used compound assignment statements. These only work if the variable on the left-side of the statement has a value other than `nil`
 
@@ -57,7 +148,7 @@ To make your code shorter, you can used compound assignment statements. These on
 | `x /= 2`           | `x = x / 2`         |
 | `x *= 8`           | `x = x * 8`         |
 
-### Pass by Reference
+## Pass by Reference
 
 In Ruby, and many programming languages variables can be thought of as references.  A variable holds the memory address of the value stored in memory.  For example for the code:
 
@@ -119,7 +210,7 @@ puts "#{list}"    # ["Peter", "Ida", "Mary"]
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
-### !challenge
+## !challenge
 
 * type: multiple-choice
 * id: 0c7d1b98-583b-4800-ade8-e1d426b76681
@@ -174,6 +265,6 @@ Both variables refer to the same string in memory.  `.swapcase!` will convert al
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-### Resources
+## Resources
 
 - [Ada Assignment Statements Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7d4167a7-8bc9-4d38-b58a-0cf78392cc2b) (11:09)
