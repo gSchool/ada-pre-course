@@ -15,7 +15,6 @@ describe "Test Suite" do
     $stdout = output
     simulate_stdin(given_input) do
       line = File.read(filename).force_encoding("utf-8")
-      puts line
       eval line
     end
     $stdout = original_stdout
@@ -67,15 +66,17 @@ describe "Test Suite" do
     not_in_pw = false
 
     output_list.each do |word|
-      if (word.match /This state is in the PNW/) && !not_in_pw
+      if (word.match /This state is in the PNW/i) 
         in_pw = true
-      elsif (word.match /You should move to the PNW./ ) && !in_pw
+      elsif (word.match /You should move to the PNW./i ) 
         not_in_pw = true
       end
     end
 
-    expect(in_pw).must_equal false
-    expect(not_in_pw).must_equal true
+    puts output_list
+
+    expect(in_pw && !not_in_pw).must_equal false
+    expect(not_in_pw && !in_pw).must_equal true
   end
 
   it "will result in 'You should move to the PNW.  It’s great here!' for pasta" do
