@@ -85,7 +85,7 @@ c14 = [
 ### !challenge
 
 * type: multiple-choice
-* id: 831b74a2-9b0f-4172-a194-8643c45c9518
+* id: 7c3036ea-c58e-4830-ab85-4932092fd821
 * title: First Element of an Array
 * points: 1
 * topics: arrays
@@ -134,7 +134,7 @@ Arrays always start at 0
 ### !challenge
 
 * type: multiple-choice
-* id: 7db0f4b5-8a30-4a00-9f9d-0079a56dd0c1
+* id: b61e7559-de66-43e6-99dd-d1df0e0e8500
 * title: Hashes Start with
 * points: 1
 * topics: Hashes
@@ -175,7 +175,7 @@ A hash must start with index/key...
 ### !challenge
 
 * type: multiple-choice
-* id: d867785f-10de-4499-bf1a-18d10d94c40f
+* id: 9421baf7-827d-4e5a-b8bc-440c5b61fe03
 * title: Nested Hashes
 * points: 1
 * topics: Hashes
@@ -233,7 +233,7 @@ This is a hash of hashes.  It's a hash with each value in the key-value pair bei
 ### !challenge
 
 * type: multiple-choice
-* id: d867785f-10de-4499-bf1a-18d10d94c40f
+* id: c1f8e8f7-af2e-4460-8b0b-a86240ae8a69
 * title: Nested Hashes
 * points: 1
 * topics: Hashes, Arrays
