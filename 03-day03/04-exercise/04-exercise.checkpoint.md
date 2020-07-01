@@ -187,6 +187,14 @@ end
 <!-- ======================= END CHALLENGE ======================= -->
 
 
+### !callout-warning
+
+## NOT Automatically Graded
+
+The item below is not automatically graded.  Your instructor will provide feedback
+
+### !end-callout
+
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
