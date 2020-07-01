@@ -1,5 +1,7 @@
 # Arrays vs Hashes
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=2f21e9e5-54fb-4e2a-a79d-fe72bedc10d9&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Arrays
 
 Arrays are ordered lists of items. The order of the data is maintained and important. Arrays have integer indexes starting at 0 which cannot be changed. This means you can retrieve data using a 0-based index.

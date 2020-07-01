@@ -7,6 +7,8 @@
 * If you are naming something, you should use a symbol
 * If the contents of the individual characters are important than you should use a string
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=c01b4ab7-7a1e-4f92-9e27-c7d561146016&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## What Are Symbols?
 
 Symbols are a type of variable, like a String, Integer or Boolean.  A symbol is just a name and an internal ID.  We can indicate a symbol literal (the value of a symbol) with text preceeded by a colon.  For example `:alice` is a symbol value, we can make variables and assign them to symbols like:  `name = :shelan`

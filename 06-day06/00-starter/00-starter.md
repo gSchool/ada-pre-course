@@ -1,5 +1,7 @@
 # Day 6
 
+This day's lesson is all about Arrays and Hashes.  
+
 ## Learning Goals
 
 By the end of this set of lessons you should:
@@ -10,12 +12,6 @@ By the end of this set of lessons you should:
 * Be able to explain how Hashes compare to Arrays
 * Access element in a nested data structure
 * Navigate a nested data structure using a loop
-
-
-## Day 6 Overview
-
-
-
 
 ## Resources
 

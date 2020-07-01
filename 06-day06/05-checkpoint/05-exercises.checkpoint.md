@@ -36,27 +36,38 @@ We are going to write a program that generates some student information. This ex
     `flowers = ["lily", "rose", "gardenia", "daisy"]` vs. `flower = "tulip"`
 
 2. Write a `times` loop that asks the user to enter in 5 student names (first and last name) and store those values in the first array in **all uppercase** even if the information is not entered by the user in uppercase.  
+
 Example output:
+
+```markdown
 
 | Value | "ROSIE MARTINEZ" | "JOE LIU" | "SALLY SUE" | "BOB JOHNSON" | "DELIA AGHO" |
 | :---- | :--------------- | :-------- | :---------- | :------------ | :----------- |
 | Index | [0]              | [1]       | [2]         | [3]           | [4]          |
 
+```
 
-3. Write a `times` loop to generate random student ID numbers from 111111 to 999999 and put these values to the student ID number array.  
+1. Write a `times` loop to generate random student ID numbers from 111111 to 999999 and put these values to the student ID number array.  
 Example output:
 
+
+```markdown
 | Value | 123256 | 349222 | 999999 | 111112 | 726488 |
 | :---- | :----- | :----- | :----- | :----- | :----- |
 | Index | [0]    | [1]    | [2]    | [3]    | [4]    |
+```
 
 4. Write a `times` loop to generate student email addresses in the format:
   (first inital)+(last name)+(last 3 digits of student ID number)@adadevelopersacademy.org  
+
   Example output:
 
+```markdown
 | Value | "RMARTINEZ256@adadevelopersacademy.org" | "JLIU222@adadevelopersacademy.org" | "SSUE999@adadevelopersacademy.org" | "BJOHNSON112@adadevelopersacademy.org" | "DAGHO488@adadevelopersacademy.org" |
 | :---- | :-------------------------------------- | :--------------------------------- | :--------------------------------- | :------------------------------------- | :---------------------------------- |
 | Index | [0]                                     | [1]                                | [2]                                | [3]                                    | [4]                                 |
+
+```
 
 5. Write the code which will print out all the student names, ID numbers, and email addresses in parallel.
 
@@ -133,7 +144,8 @@ Complete the following refactor steps:
   - generate random student ID
   - generate student email address from previous pieces of data
 - Update the printing functionality to utilize this new hash variable to print out student roster
-- 
+  
+  
 ##### !end-question
 
 ##### !placeholder
@@ -164,6 +176,46 @@ Take a look at the nested hashes lesson.  An array of hashes would make sense.
 | `Optional` Reads input from a file                                                                                                           |
 
 ##### !end-rubric
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 47ac77b8-6d52-4190-b903-c44670963d28
+* title: Udacity Intro to HTML Course
+* points: [1] (optional, the number of points for scoring as a checkpoint)
+* topics: html, css
+
+##### !question
+
+This is less of a question, but an external task.  Please go to the [Udacity Intro to HTML & CSS Course](https://www.udacity.com/course/intro-to-html-and-css--ud001) and complete the course, then indicate that you have finished it below.  We will be using both HTML and CSS to develop web applications and this course is a prerequisite.  
+
+
+##### !end-question
+
+##### !options
+
+* Incomplete
+* Complete!
+
+##### !end-options
+
+##### !answer
+
+* Complete!
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 <!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
 
 ### !end-challenge
