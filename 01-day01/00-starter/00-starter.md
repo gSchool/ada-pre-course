@@ -2,7 +2,7 @@
 
 Welcome to this Pre-Ada Course.  This course is required prior to attending Ada Developers Academy as a student.  
 
-The purpose of this re-Ada course is to keep you coding (and talking about code) between admissions and the first day of class. Understand the topics covered in the JumpStart and JumpStart Live curriculum and practice this understanding with the assignments provided. Take this opportunity to meet and study with peers in your cohort.  You will have been invited to the Cohort Slack, and we will set up a channel to discuss the course and coding challenges.  **Take advantage of it.**
+The purpose of this Pre-Ada course is to keep you coding (and talking about code) between admissions and the first day of class. You should understand the topics covered in the JumpStart and JumpStart Live curriculum and practice this understanding with the assignments provided. Take this opportunity to meet and study with peers in your cohort.  You will have been invited to the Cohort Slack, and we will set up a channel to discuss the course and coding challenges.  **Take advantage of it.**
 
 All admitted students are expected to be well-versed with the concepts covered in the Jump Start curriculum on the first day of their cohort. This includes conditional flows, loops, arrays, hashes and Ruby basics. As such, you are expected to complete all exercises in the JumpStart curriculum.  
 
@@ -103,7 +103,7 @@ puts "Hello, World!"
 
 ### Links to Code
 
-Other programming exercises called Project Challenges will ask you to submit a link to code either in [repl.it](https://repl.it) or a [Gist](https://gist.github.com).
+Other programming exercises called Project Challenges will ask you to submit a link to code either in [repl.it](https://repl.it), [Gist](https://gist.github.com) or a [github repository](https://github.com/).
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
