@@ -18,7 +18,7 @@ There are a number of tools available to help you split your screen including:
 
 As web developers we regularly use the terminal to run, edit, test and debug our applications.  As such it's important to get familiar with using the MacOS terminal. 
 
-To launch terminal hit `cmd-spacebar` and then type terminal.  
+To launch terminal hit <kbd>cmd</kbd> + <kbd>spacebar</kbd> and then type terminal.  
 
 ![launch terminal](images/launch-terminal.png)
 
@@ -38,25 +38,25 @@ Macs have a number of special keys which are a little different from Windows.  Y
 
 #### Terminal Shortcuts
 
-| Command            | Description                                                                                         |
-| :----------------- | :-------------------------------------------------------------------------------------------------- |
-| `cmd` + `K`        | clear your screen                                                                                   |
-| `touch <filename>` | creates a new file named filename                                                                   |
-| `pwd`              | <b>p</b>rints the <b>w</b>orking <b>d</b>irectory (displays the full path of the current directory) |
-| `cd`               | <b>c</b>hoose a <b>d</b>irectory                                                                    |
-| `cd ..`            | go back a directory                                                                                 |
-| `cd ~`             | choose home directory                                                                               |
-| `ls`               | list the items in the directory                                                                     |
-| `ls -a`            | list the items in the directory, including hidden files                                             |
-| `mkdir`            | make a new directory                                                                                |
-| `rm <filename>`    | removes the file named filename                                                                     |
-| `rm -r <dirname>`  | removes the directory (and everything in it) named dirname                                          |
-| &#8593;            | view the previous command                                                                           |
-| `ctrl` + `a`       | go to beginning of line                                                                             |
-| `ctrl` + `e`       | go to end of line                                                                                   |
-| `alt` + &#8594;    | move to the right, one word                                                                         |
-| `alt` + &#8592;    | move to the left, one word                                                                          |
-| `ctrl` + `c`       | interrupt or stop a command                                                                         |
+| Command            | Description                                                                                                          |
+| :----------------- | :------------------------------------------------------------------------------------------------------------------- |
+| <kbd>cmd</kbd> + <kbd>k</kbd>       | clear your screen                                                                                   |
+| `touch <filename>`                  | creates a new file named filename                                                                   |
+| `pwd`                               | <b>p</b>rints the <b>w</b>orking <b>d</b>irectory (displays the full path of the current directory) |
+| `cd`                                | <b>c</b>change <b>d</b>irectory                                                                     |
+| `cd ..`                             | go back a directory                                                                                 |
+| `cd ~`                              | choose home directory                                                                               |
+| `ls`                                | list the items in the directory                                                                     |
+| `ls -a`                             | list the items in the directory, including hidden files                                             |
+| `mkdir <dirname>`                   | make a new directory                                                                                |
+| `rm <filename>`                     | removes the file named filename                                                                     |
+| `rm -r <dirname>`                   | removes the directory named dirname (and everything in it)                                          |
+| <kbd>&#8593;</kbd>                  | view the previous command                                                                           |
+| <kbd>ctrl</kbd> + <kbd>a</kbd>      | go to beginning of line                                                                             |
+| <kbd>ctrl</kbd> + <kbd>e</kbd>      | go to end of line                                                                                   |
+| <kbd>alt</kbd> + <kbd>&#8594;</kbd> | move to the right, one word                                                                         |
+| <kbd>alt</kbd> + <kbd>&#8592;</kbd> | move to the left, one word                                                                          |
+| <kbd>ctrl</kbd> + <kbd>c</kbd>      | interrupt/stop a command                                                                            |
 
 ### IRB - Interactive Ruby
 
@@ -68,11 +68,11 @@ There are a few shortcut commands that are helpful to know.
 
 #### irb commands
 
-| Command      | Description                    |
-| :----------- | :----------------------------- |
-| `irb`        | start interactive ruby session |
-| `exit`       | exit an `irb` session          |
-| `ctrl` + `c` | interrupt or stop a command    |
+| Command                                  | Description                    |
+| :--------------------------------------- | :----------------------------- |
+| `irb`                                    | start interactive ruby session |
+| `exit` or <kbd>ctrl</kbd> + <kbd>d</kbd> | exit an `irb` session          |
+| <kbd>ctrl</kbd> + <kbd>c</kbd>           | interrupt/stop a command       |
 
 ### Running Ruby Files
 
