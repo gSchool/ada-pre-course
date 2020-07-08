@@ -4,17 +4,18 @@
 
 Everything in Ruby is an object. There are 7 data types you should know about now.
 
-| Data Type | Description                                    | Example               |
-| :-------- | :--------------------------------------------- | :-------------------- |
-| String    | Anything surrounded by single or double quotes | `"hello"`, `'hello'`  |
-| Integer   | A number with no decimal                       | `1`, `0`, `-7`        |
-| Float     | Real value (decimal)                           | `0.5`                 |
-| Array     | An ordered list                                | `[5, 0, 1]`           |
-| Symbol    | A named object                                 | `:apple`              |
-| Hash      | A set of key, value pairs                      | `{ A: 2, B: 3, C: 1}` |
-| Range     | A set of values with a beginning and an end    | `(2..6)`              |
+| Data Type | Description                                     | Example               |
+| :-------- | :---------------------------------------------- | :-------------------- |
+| String    | A piece of text                                 | `"hello"`, `'hello'`  |
+| Integer   | A whole number                                  | `1`, `0`, `-7`        |
+| Float     | Real value (decimal)                            | `0.5`                 |
+| Array     | An ordered list                                 | `[5, 0, 1]`           |
+| Hash      | A set of key/value pairs                        | `{ A: 2, B: 3, C: 1}` |
+| Range     | A set of values with a beginning and an end     | `(2..6)`              |
+| Symbol    | A named object (used for things like hash keys) | `:apple`              |
 
 <!-- available callout types: info, success, warning, danger, secondary  -->
+<!-- I think we should remove the note on Fixnum because the lastest macOS ships Ruby 2.6.3.
 ### !callout-info
 
 ## Fixnum
@@ -22,6 +23,7 @@ Everything in Ruby is an object. There are 7 data types you should know about no
 Fixnum is another name for Integer. Ruby version 2.4.0 introduced the term Integer, so if your ruby version is at least 2.4.0, use Integer. Otherwise use Fixnum. You can check your version by typing `ruby --version` in the terminal.
 
 ### !end-callout
+-->
 
 ### Determining the type
 To determine the type of an object you can use `.class`
@@ -48,7 +50,7 @@ puts word.class #String
 
 ##### !question
 
-What type is 3.7
+What type is `3.7`?
 
 ##### !end-question
 
@@ -104,7 +106,7 @@ A float is a real number, i.e. a number with a decimal.
 
 ##### !question
 
-What type is "100"?
+What type is `"100"`?
 
 ##### !end-question
 
@@ -139,7 +141,7 @@ Notice the quotations.
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-String literals are text enclosed in single or double quotes.  So "hello" is a string as is '100'.
+String literals are text enclosed in single or double quotes.  So `"hello"` is a string as is `'100'`.
 
 ##### !end-explanation
 
@@ -190,7 +192,7 @@ Hashes are collections of key-value pairs.
 
 ##### !hint
 
-Notice the curly braces and pairs of values separated by colons (:).
+Notice the curly braces and pairs of values separated by colons (`:`).
 
 ##### !end-hint
 

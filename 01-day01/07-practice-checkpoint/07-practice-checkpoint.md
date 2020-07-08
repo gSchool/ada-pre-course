@@ -87,10 +87,10 @@ What bash/zsh command will print your current directory?
 <!-- other optional sections -->
 ##### !hint
 
-pwd = present working directory
-ls = list directory contents
-rm = remove
-echo = print
+* pwd = present working directory
+* ls = list directory contents
+* rm = remove
+* echo = print
 
 ##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
@@ -300,13 +300,13 @@ puts 'Hello #{name}'
 <!-- other optional sections -->
 ##### !hint
 
-You can do "#{name}" in Ruby.
+You can do `"#{name}"` in Ruby.
 
 ##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-You can only do string interpolation with the double quotes `"`.  With single quotes `'`, you can only do string concatenation and the escape sequence `\\`.
+You can only do string interpolation with the double quotes `"`.  With single quotes `'`, you can only do string concatenation and the escape sequences `\\` and `\'`.
 
 ##### !end-explanation
 
@@ -424,7 +424,7 @@ Note that both students and list will both reference the same object in memory.
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-Since both variables reference the same object in memory they start off referencing ["Mark Dean", "Philip Emeagwali", "Clarence Ellis"].  Then when list[0] = "Marc Hannah", both lists will refer to the array ["Marc Hannah", "Philip Emeagwali", "Clarence Ellis"].  So students.first will be "Marc Hannah".
+Since both variables reference the same object in memory they start off referencing `["Mark Dean", "Philip Emeagwali", "Clarence Ellis"]`.  Then when `list[0] = "Marc Hannah"`, both lists will refer to the array `["Marc Hannah", "Philip Emeagwali", "Clarence Ellis"]`.  So `students.first` will be `"Marc Hannah"`.
 
 ##### !end-explanation
 

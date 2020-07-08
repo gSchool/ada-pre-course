@@ -7,7 +7,7 @@ Understanding how to read and use assignment statements is a critical skill in p
 
 ## Reading Assignment Statements
 
-* Assignment statements are read from right-to-left, not from left-to-right
+* Assignments should be read as "give the variable x the value 5" or "set x to 5".
 * Use phrases like _assigns_, or _stores the value_, instead of _equals_, or _equal to_
 
 ```ruby
@@ -42,7 +42,7 @@ y = x
 
 ##### !question
 
-What is the value of x, after the following code is executed?
+What is the value of `x`, after the following code is executed?
 
 ```ruby
 x = 3
@@ -96,14 +96,14 @@ Look at lines 1 and 3.
 
 ##### !question
 
- What is the value of y, after the following code is executed?
+ What is the value of `y`, after the following code is executed?
 
-	```ruby
-	x = 3
-	y = x
-	x = x - 7
-	y = y - 1
-	```
+```ruby
+x = 3
+y = x
+x = x - 7
+y = y - 1
+```
 
 ##### !end-question
 
@@ -122,7 +122,7 @@ Look at lines 1 and 3.
 <!-- other optional sections -->
 ##### !hint
 
-So y is assigned to 3 and then what do you do to y?
+So `y` is assigned to 3 and then what do you do to `y`?
 
 ##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
