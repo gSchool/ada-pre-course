@@ -111,25 +111,25 @@ puts x || y
 # no short circuit
 # y is evaluated
 if x && y
-	puts "1"
+  puts "1"
 end
 
 # short circuit
 # x is not evaluated
 if y && x
-	puts "2"
+  puts "2"
 end
 
 # short circuit
 # y is not evaluated
 if x || y
-	puts "3"
+  puts "3"
 end
 
 # no short circuit
 # x is evaluated
 if y || x
-	puts "4"
+  puts "4"
 end
 ```
 
@@ -142,7 +142,7 @@ You cannot for example ...
 ```ruby
 x = 1
 if x == false || 2 || 48
-	puts "x is false, 2, or 48"
+  puts "x is false, 2, or 48"
 end
 ```
 
@@ -161,7 +161,7 @@ The correct way to code this is ...
 ```ruby
 x = 1
 if x == false || x == 2 || x == 48
-	puts "x is false, 2, or 48"
+  puts "x is false, 2, or 48"
 end
 ```
 
@@ -184,7 +184,7 @@ What will this print out?
 ```ruby
 x = 48
 if x == false || x == 2 || x == 48
-	puts "true"
+  puts "true"
 end
 ```
 
@@ -198,7 +198,7 @@ printout
 
 ##### !answer
 
-/true/
+`true`
 
 ##### !end-answer
 
