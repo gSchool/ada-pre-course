@@ -8,8 +8,8 @@
 ---
 Standards:
   -
-    Title: Day01
-    Description: Day01
+    Title: Getting Started
+    Description: In this lesson we work on learning to setup your environment and basic Ruby types.
     UID: 6367c8458f28cebf0fdd0676fcf916b4
     SuccessCriteria:
       - success criteria
@@ -47,8 +47,8 @@ Standards:
         UID: 6a525aae568d31616193d076a2639cf4
         Path: /01-day01/07-practice-checkpoint/07-practice-checkpoint.md
   -
-    Title: Day02
-    Description: Day02
+    Title: Decision Making & Looping
+    Description: In this lesson we will look at creating conditionals in Ruby and practice writing programs which do so.
     UID: 06ff9ac338628ad7eee1e1f03b0e4040
     SuccessCriteria:
       - success criteria
@@ -78,8 +78,8 @@ Standards:
         UID: ff9081c48e02358003634f1ea7842311
         Path: /02-day02/04-exercises/04-exercises.checkpoint.md
   -
-    Title: Day03
-    Description: Day03
+    Title: Loops and Scope
+    Description: In this unit we will continue to practice writing loops and explore the concept of scope.
     UID: 561d2b7fa7acd217f127647675377290
     SuccessCriteria:
       - success criteria
@@ -105,8 +105,8 @@ Standards:
         UID: 0cf1a9f5b7ff46e74b41256c7a4aa93c
         Path: /03-day03/04-exercise/04-exercise.checkpoint.md
   -
-    Title: Day04
-    Description: Day04
+    Title: Arrays, Loops and Boolean Zen
+    Description: In this unit we will introduce arrays, practice with loops involving arrays and best practices in writing boolean expressions.
     UID: 558e38039a8c2841845c007fb819eeed
     SuccessCriteria:
       - success criteria
@@ -132,8 +132,8 @@ Standards:
         UID: 0024564e8c726b18cab55236bfa47e63
         Path: /04-day04/05-exercises/05-exercises.checkpoint.md
   -
-    Title: Day05
-    Description: Day05
+    Title: Arrays and Nil
+    Description: In this unit we will introduce the nil value and continue to practice writing code with arrays.
     UID: f74ffaa0fecb63439f86795ffbcfc5d4
     SuccessCriteria:
       - success criteria
@@ -155,8 +155,8 @@ Standards:
         UID: f2026cbe3953a953793e90d1387ec789
         Path: /05-day05/03-exercises/03-exercises.checkpoint.md
   -
-    Title: Day06
-    Description: Day06
+    Title: Arrays and Hashes
+    Description: In this unit we introduce Hashes and explore their use and nesting hashes within arrays.
     UID: a0160af6a4a67d0b36aa28c15c6d9563
     SuccessCriteria:
       - success criteria
