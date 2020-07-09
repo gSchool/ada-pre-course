@@ -167,22 +167,22 @@ What is the boolean expression in the code below?
 
 ##### !options
 
-* test_score > 90
-* print "You got an A!"
-* test_score = gets.chomp.to_i
+* `test_score > 90`
+* `print "You got an A!"`
+* `test_score = gets.chomp.to_i`
 
 ##### !end-options
 
 ##### !answer
 
-* test_score > 90
+* `test_score > 90`
 
 ##### !end-answer
 
 <!-- other optional sections -->
 ##### !hint
 
-A conditional is a statement which evaluates to true or false.
+A conditional is a statement which evaluates to `true` or `false`.
 
 ##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
@@ -222,29 +222,29 @@ Provide a value of `test_score` that will cause the code to print `You got an A!
 
 ##### !options
 
-* 90
-* taco
-* 89
-* 91
+* `90`
+* `"taco"`
+* `89`
+* `91`
 
 ##### !end-options
 
 ##### !answer
 
-* 91
+* `91`
 
 ##### !end-answer
 
 <!-- other optional sections -->
 ##### !hint
 
-> means greater than, not greater than or equal to
+`>` means "greater than", not "greater than or equal to"
 
 ##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-91 is the only value in the list that is greater than 90.  90 is instead equal and not greater than.
+`91` is the only value in the list that is greater than `90`.  `90` is instead equal to but not greater than itself.
 
 ##### !end-explanation
 
@@ -279,28 +279,28 @@ Provide a value of `test_score` that will cause the code to not print anything
 
 ##### !options
 
-* 91
-* 100
-* 90
+* `91`
+* `100`
+* `90`
 
 ##### !end-options
 
 ##### !answer
 
-* 90
+* `90`
 
 ##### !end-answer
 
 <!-- other optional sections -->
 ##### !hint
 
-> means greater than
+`>` means "greater than"
 
 ##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-Ninety is the only value which is not greater than 90.
+`90` is the only value which is not greater than `90`.
 
 ##### !end-explanation
 

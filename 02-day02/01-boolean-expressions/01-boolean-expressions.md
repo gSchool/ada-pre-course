@@ -66,11 +66,11 @@ end
 
 * Logical operators allow you to combine or modify boolean expressions
 
-| __Operator__ | __Description__ | __Example__            | __Result__ |
-| :----------- | :-------------- | :--------------------- | :--------- |
-| `&&`         | and             | `(2 == 3) && (-1 < 5)` | `false`    |
-| `||`         | or              | `(2 == 3) || (-1 < 5)` | `true`     |
-| `!`          | not             | `!(2 == 3)`            | `true`     |
+| __Operator__   | __Description__ | __Example__              | __Result__ |
+| :------------- | :-------------- | :----------------------- | :--------- |
+| `&&`           | and             | `(2 == 3) && (-1 < 5)`   | `false`    |
+| `\|\|`         | or              | `(2 == 3) \|\| (-1 < 5)` | `true`     |
+| `!`            | not             | `!(2 == 3)`              | `true`     |
 
 | __p__   | __q__   | __p && q__ | __p &#124;&#124; q__ |
 | :------ | :------ | :--------- | :------------------- |
@@ -111,25 +111,25 @@ puts x || y
 # no short circuit
 # y is evaluated
 if x && y
-	puts "1"
+  puts "1"
 end
 
 # short circuit
 # x is not evaluated
 if y && x
-	puts "2"
+  puts "2"
 end
 
 # short circuit
 # y is not evaluated
 if x || y
-	puts "3"
+  puts "3"
 end
 
 # no short circuit
 # x is evaluated
 if y || x
-	puts "4"
+  puts "4"
 end
 ```
 
@@ -142,11 +142,11 @@ You cannot for example ...
 ```ruby
 x = 1
 if x == false || 2 || 48
-	puts "x is false, 2, or 48"
+  puts "x is false, 2, or 48"
 end
 ```
 
-This code prints `x is false, 2 or 48`, unexpectedly. 
+This code prints `x is false, 2, or 48`, unexpectedly. 
 
 ```
 x == false || 2 || 48
@@ -161,7 +161,7 @@ The correct way to code this is ...
 ```ruby
 x = 1
 if x == false || x == 2 || x == 48
-	puts "x is false, 2, or 48"
+  puts "x is false, 2, or 48"
 end
 ```
 
@@ -184,7 +184,7 @@ What will this print out?
 ```ruby
 x = 48
 if x == false || x == 2 || x == 48
-	puts "true"
+  puts "true"
 end
 ```
 
@@ -198,7 +198,7 @@ printout
 
 ##### !answer
 
-/true/
+`true`
 
 ##### !end-answer
 
