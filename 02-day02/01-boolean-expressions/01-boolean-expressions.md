@@ -146,7 +146,7 @@ if x == false || 2 || 48
 end
 ```
 
-This code prints `x is false, 2 or 48`, unexpectedly. 
+This code prints `x is false, 2, or 48`, unexpectedly. 
 
 ```
 x == false || 2 || 48
