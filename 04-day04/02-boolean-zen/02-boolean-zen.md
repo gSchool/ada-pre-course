@@ -1,6 +1,6 @@
 # Boolean Zen
 
-_Boolean zen is a phrase used to describe if code using boolean values is written in the most concise way possible. Boolean zen is considered good programming style._
+_Boolean Zen is a phrase used to describe if code using boolean values is written in the most concise way possible. Boolean Zen is considered good programming style._
 
 <iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=1d4f3740-edc2-469a-ac3c-bf980dd649cf&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
@@ -39,7 +39,7 @@ until correct
 end
 ```
 
-The code above is a good example of boolean zen because we do not need the `== true` component of the conditional, `correct` is either truthy or falsy and that can be put in the conditional space of the loop.  We don't need to compare it to true.  The inverse is true with the `until` loop.
+The code above is a good example of Boolean Zen because we do not need the `== true` component of the conditional, `correct` is either truthy or falsy and that can be put in the conditional space of the loop.  We don't need to compare it to true.  The inverse is true with the `until` loop.
 
 We can see another example below.
 
