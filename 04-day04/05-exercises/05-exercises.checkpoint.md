@@ -8,6 +8,8 @@ The item below is not automatically graded.  Your instructor will provide feedba
 
 ### !end-callout
 
+<!-- ======================= END CHALLENGE ======================= -->
+
 ## 1. Password Verification
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
@@ -15,10 +17,9 @@ The item below is not automatically graded.  Your instructor will provide feedba
 
 ### !challenge
 
-* type: custom-snippet
+* type: project
+* id: f2383663-d170-49ad-b48a-9ab3a707ada7
 * language: Ruby
-* id: ea7a085e-5704-47ed-80a0-b1788fd05ccb
-* docker_directory_path: /custom-snippets/password
 * title: Password Verification
 * points: 1
 * topics: conditionals, iteration
@@ -35,16 +36,12 @@ Create a program that will:
 * [Optional] Make them include a capital and a lowercase letter
 * [Optional] Let them know what they did wrong
 
-**Be aware that this submission will not be autograded
-
 ##### !end-question
+
 
 ##### !placeholder
 
-```ruby
-print "Please enter a new password ==> "
-password = gets.chomp
-```
+Place a link to your code here in either a Repl.it, or Gist or Github repo
 
 ##### !end-placeholder
 
