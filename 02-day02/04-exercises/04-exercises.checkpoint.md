@@ -1,4 +1,4 @@
-# Day 2 Exercises
+# Unit 2 Exercises
 
 #### !instructor
 

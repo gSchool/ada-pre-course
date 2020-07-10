@@ -1,6 +1,6 @@
-# Day 6
+# Unit 6
 
-This day's lesson is all about Arrays and Hashes.  
+This unit's lesson is all about Arrays and Hashes.  
 
 ## Learning Goals
 
@@ -15,6 +15,6 @@ By the end of this set of lessons you should:
 
 ## Resources
 
-* [Day 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512)
+* [Unit 6 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=1cdf49b7-a75f-434c-a140-8fbd3d344512)
 * [Ruby Documentation on Hashes](http://ruby-doc.org/core-2.4.0/Hash.html)
 

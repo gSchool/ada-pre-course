@@ -1,4 +1,4 @@
-# Pre-Ada Course
+# Getting Started
 
 Welcome to this Pre-Ada Course.  This course is required prior to attending Ada Developers Academy as a student.  
 
@@ -26,14 +26,14 @@ In this course you can always resubmit work.  If you want a 2nd-round of instruc
 
 ## Due Dates
 
-* You should complete Days 1-3 by **August 11th**
-* You **must** complete the entire course on Monday August 24th to attend Ada Cohort 14.
+* You should complete Units 1-3, Getting Started through Arrays, Loops and Boolean Zen by **August 11th**
+* You **should** complete the entire course on Monday August 24th to attend Ada Cohort 14.
 
 ### !end-callout
 
-## Days
+## Units
 
-The course is designed with days to match the 6-day in-person Pre-Ada sessions for students determined to need a bit of additional support called Jump Start Live.  If you want to attend Jump Start Live sessions, you can request to do so, but space is limited and admission is based on need.
+The course is designed with units to match the 6-day in-person Pre-Ada sessions for students determined to need a bit of additional support called Jump Start Live.  If you want to attend Jump Start Live sessions, you can request to do so, but space is limited and admission is based on need.
 
 ## Learning Goals for the Course
 
@@ -147,8 +147,8 @@ You can learn [how to create a gist](https://docs.github.com/en/github/writing-o
 
 Beyond this course, we also want you to take the free [Udacity HTML & CSS](https://www.udacity.com/course/intro-to-html-and-css--ud001)  course in preparation for our HTML/CSS unit.
 
-## Today's Lesson
+## This Lesson
 
-Today's lesson is about workflow, Ruby style and basic types and operations.  This should feel like review and give you a smooth start.  Try to work through things a bit at a time and feel free to walk away for a bit when you are stuck, or shout out for support on Slack.  
+This lesson is about workflow, Ruby style and basic types and operations.  This should feel like review and give you a smooth start.  Try to work through things a bit at a time and feel free to walk away for a bit when you are stuck, or shout out for support on Slack.  
 
 We'll let you get started...

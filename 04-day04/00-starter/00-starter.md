@@ -1,6 +1,6 @@
-# Day 4
+# Unit 4
 
-For today's lessons you will work on better understanding booleans, more advanced looping and be introduced to arrays.
+For this unit's lessons you will work on better understanding booleans, more advanced looping and be introduced to arrays.
 
 ## Learning Goals
 
@@ -12,4 +12,4 @@ By the end of these lessons you should be able to:
 
 ## Resources
 
-* [Day 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f)
+* [Unit 4 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=59509728-df2d-4580-9077-55ad28795a7f)

@@ -1,6 +1,6 @@
-# Day 3
+# Unit 3
 
-For today's lessons you will work on loops and variable scope with a longer set of exercises.
+For this unit's lessons you will work on loops and variable scope with a longer set of exercises.
 
 ## Goals
 
@@ -9,6 +9,6 @@ For today's lessons you will work on loops and variable scope with a longer set 
 
 ## Resources
 
-* [Day 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339)
+* [Unit 3 Videos](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=4bd4003b-ca01-4260-8e3e-86296c909339)
 
 
