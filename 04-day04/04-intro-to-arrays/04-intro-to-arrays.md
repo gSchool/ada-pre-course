@@ -40,8 +40,53 @@ You can also use the length to find the index of the last element:
 puts list[list.length - 1] # Dan
 ```
 
-**Question**  How can you find the 2nd to last element in any array without using -2?
+**Question**  How can you find the 2nd to last element in any array called `my_list` without using -2?
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: cde07b81-e089-4000-b79e-bff8ae7595fa
+* title: How can you find the 2nd to last element in any array without using -2?
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+How can you find the 2nd to last element in any array without using -2?
+
+##### !end-question
+
+##### !placeholder
+
+my_list[   ]
+
+##### !end-placeholder
+
+##### !answer
+
+my_list[my_list.length - 2]
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+How can you find out how long the list is?
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+The last index of the array is the length of the array minus 1, because the first index starts at 0.  So the 2nd to last index is the length - 2
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 <details>
   <summary>
     Click here to see an answer:
