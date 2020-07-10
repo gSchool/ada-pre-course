@@ -106,7 +106,7 @@ colors = {
 }
 
 # when accessing, you do need the :
-puts "#{colors[:red] people love red}"
+puts "#{colors[:red]} people love red"
 ```
 
 ## Iterating over a hash
