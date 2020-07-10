@@ -50,7 +50,7 @@ password = gets.chomp
 
 ##### !hint
 
-A while loop could be appropriate, you could also use the string `.include?` method with some AND clauses (easiest) or a [regular expression](https://www.rubyguides.com/2015/06/ruby-regex/)
+A while loop could be appropriate, you could also use the string `.include?` method with some `&&` clauses (easiest) or a [regular expression](https://www.rubyguides.com/2015/06/ruby-regex/)
 
 ##### !end-hint
 ##### !rubric
@@ -134,7 +134,7 @@ Below is an example program output. User input is indicated in &lt;&gt; (angle b
 
 ### Optional Enhancements
 
-Some of these enhancements are better solved after having knowledge from [lesson 12](https://github.com/Ada-Developers-Academy/jump-start/tree/master/learning-to-code/arrays), so you can try some and then come back and do others after lesson 12.
+Some of these enhancements are better solved after having knowledge from [Lesson 12: Arrays](https://github.com/Ada-Developers-Academy/jump-start/tree/master/learning-to-code/arrays), so you can try some and then come back and do others after Lesson 12.
 
 - Handle ties for a winner appropriately
 - Handle grammar of vote summary saying vote or votes appropriately
