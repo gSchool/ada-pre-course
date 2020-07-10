@@ -6,7 +6,7 @@ If Ada was building a student database application we might want to keep track o
 
 ```ruby
 student_names = ["Alice Jones", "Ada Lovelace", "Brook Zoolander"]
-student_emails = ["Alice@adadev.org", "Ada@adadevlorg", "brook@adadev.org"]
+student_emails = ["alice@adadev.org", "ada@adadevlorg", "brook@adadev.org"]
 student_ids = [111, 112, 113]
 
 student_names.length.times do |index|
@@ -21,7 +21,7 @@ students = [
   {
     name: "Alice Jones",
     id: 111,
-    email: "Alice@adadev.org",
+    email: "alice@adadev.org",
   },
   {
     name: "Ada Lovelace",
