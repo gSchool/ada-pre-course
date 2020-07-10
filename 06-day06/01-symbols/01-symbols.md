@@ -70,7 +70,7 @@ We'll learn to use symbols with hashes later in this unit.  Because symbol value
 colors = {red: 32, blue: 13, yellow: 2, purple: 104}
 
 # when accessing, you do need the :
-puts "#{colors[:red] people love red"
+puts "#{colors[:red]} people love red"
 ```
 
 Notice the colon in `colors[:red]`, `:red` is a symbol!
