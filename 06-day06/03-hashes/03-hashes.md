@@ -3,7 +3,7 @@
 ## Overview
 
 * Hashes are a collection of paired information
-* Sometimes described as a collection of key-value pairs, or as a "look up table"
+* Sometimes described as a collection of key, value pairs, or as a "look up table"
 * Hashes use any object for their index
 * Each pair has both a key and a value
 * The keys in the hash are unique (i.e., not repeated), but values may be repeated
@@ -69,7 +69,7 @@ colors = {
   :blue => 13,
   :yellow => 2,
   :purple => 104,
-  }
+}
 ```
 
 That's ooookkkkkay, and we saved typing one key, but it's still a bit ugly (my personal opinion).  So Ruby introduced a syntax exclusively for hashes with keys as symbols.
@@ -103,10 +103,10 @@ colors = {
   blue: 13, 
   yellow: 2, 
   purple: 104
-  }
+}
 
 # when accessing, you do need the :
-puts "#{colors[:red] people love red"
+puts "#{colors[:red] people love red}"
 ```
 
 ## Iterating over a hash
@@ -139,16 +139,16 @@ students.each_value { |age| puts "#{age}" }
 
 ## Useful hash methods
 
-| Method            | Description                                                |
-| :---------------- | :--------------------------------------------------------- |
-| `h.clear`         | Remove all key-value pairs from hash h                     |
-| `h.empty?`        | Return true if hash h contains no key-value pairs          |
-| `h.length`        | Return the number of key-value pairs in hash h             |
-| `h.keys`          | Return a new array with the keys from hash h               |
-| `h.values`        | Return a new array with the values from hash h             |
-| `h.key(value)`    | Return the key of an occurrence of a given value in hash h |
-| `h.key?(key)`     | Return true if key is present in hash h                    |
-| `h.value?(value)` | Return true if value is present in hash h                  |
+| Method            | Description                                                   |
+| :---------------- | :------------------------------------------------------------ |
+| `h.clear`         | Remove all key-value pairs from hash `h`                      |
+| `h.empty?`        | Returns `true` if hash `h` contains no key-value pairs        |
+| `h.length`        | Returns the number of key-value pairs in hash `h`             |
+| `h.keys`          | Returns a new array with the keys from hash `h`               |
+| `h.values`        | Returns a new array with the values from hash `h`             |
+| `h.key(value)`    | Returns the key of an occurrence of a given value in hash `h` |
+| `h.key?(key)`     | Returns `true` if key is present in hash `h`                  |
+| `h.value?(value)` | Returns `true` if value is present in hash `h`                |
 
 ## Optional Practice Exercises
 
