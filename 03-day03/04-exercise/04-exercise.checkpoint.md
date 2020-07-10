@@ -74,7 +74,7 @@ Write a program that plays duck duck goose. Allow the user to enter the player's
 Example Run:
 
 ```ruby
-Which player do you want to Goose? 5
+Which player do you want to be the Goose? 5
 
 Player 1: Duck
 Player 2: Duck
@@ -88,7 +88,7 @@ Player 5: Goose
 ##### !placeholder
 
 ```
-print "Which player do you want to Goose? "
+print "Which player do you want to be the Goose? "
 ```
 
 ##### !end-placeholder
@@ -103,7 +103,7 @@ It would make sense to use a .times loop
 ##### !explanation
 
 ```ruby
-print "Which player do you want to Goose? "
+print "Which player do you want to be the Goose? "
 number = gets.chomp.to_i
 
 (number - 1).times do |i|
