@@ -22,19 +22,19 @@ nums = [34, 78, 45]
 
 | Index | Value |
 | :---- | :---- |
-| 0     | 34    |
-| 1     | 78    |
-| 2     | 45    |
-| 3     | nil   |
+| 0     | `34`  |
+| 1     | `78`  |
+| 2     | `45`  |
+| 3     | `nil` |
 
 You can also use negative indexes to look at the array from the end
 
 | Index | Value |
 | :---- | :---- |
-| -1    | 45    |
-| -2    | 78    |
-| -3    | 34    |
-| -4    | nil   |
+| -1    | `45`  |
+| -2    | `78`  |
+| -3    | `34`  |
+| -4    | `nil` |
 
 ## Create
 
@@ -133,7 +133,7 @@ list << false
 list << false, true # error!
 ```
 
-It is possible to have an array of arrays, but be careful when using shovel (i.e., don't shovel an array onto an array, unless that is your intention)
+It is possible to have an array of arrays, but be careful when using shovel (i.e., don't shovel an array onto an array, or you will have a nested array)
 
 ```ruby
 nums = [4, 5, 6]
@@ -146,7 +146,7 @@ nums << [7]
 
 Iterating over an array, is a process to look at each element of an array and perform some action.
 
-You can use either a `do ... end` block or a block with curly braces for the each method. By convention `do ... end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do ... end` blocks.
+You can use either a `do` ... `end` block or a block with curly braces for the each method. By convention `do` ... `end` should be used for multi-line blocks, and curly braces for single-line blocks. Keep in mind though, that curly braces have high precedence when compared to `do` ... `end` blocks.
 
 ### each
 
@@ -172,14 +172,14 @@ nums.each_with_index { |num, index| puts "#{index}: #{num}" }
 
 ## Useful array methods
 
-| Method                  | Description                                                               |
-| :---------------------- | :------------------------------------------------------------------------ |
-| `arr.length`            | Returns the number of elements currently stored in arr                    |
-| `arr.empty?`            | Returns `true` if there are no elements in arr, otherwise returns `false` |
-| `arr.first`             | Returns the first element from arr                                        |
-| `arr.last`              | Returns the last element from arr                                         |
-| `arr.take(n)`           | Returns the first n elements from arr                                     |
-| `arr.include?(element)` | Returns `true` if element is stored in arr, otherwise returns `false`     |
+| Method                  | Description                                                                 |
+| :---------------------- | :-------------------------------------------------------------------------- |
+| `arr.length`            | Returns the number of elements currently stored in `arr`                    |
+| `arr.empty?`            | Returns `true` if there are no elements in `arr`, otherwise returns `false` |
+| `arr.first`             | Returns the first element from `arr`                                        |
+| `arr.last`              | Returns the last element from `arr`                                         |
+| `arr.take(n)`           | Returns the first `n` elements from `arr`                                   |
+| `arr.include?(element)` | Returns `true` if element is stored in `arr`, otherwise returns `false`     |
 
 ## Exercises
 
@@ -205,7 +205,7 @@ Create an array which will store the square of each value between 2 and 5, inclu
 ##### !placeholder
 
 
-```
+```ruby
 array = []
 # Your code goes here
 
@@ -267,11 +267,10 @@ Given the array below, named `list`, which contains three people, Ada Lovelace, 
 ##### !placeholder
 
 
-```
+```ruby
 def array_1
-  # your code here
   list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-
+  # your code here
   
 
   # end of your code
@@ -294,13 +293,15 @@ Just put your code in between the comments.
 One solution is below.
 
 ```ruby
-  # your code here
+def array_1
   list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-
+  # your code here
+  
   list << "Erica Joy Baker"
 
   # end of your code
   return list
+end
 ```
 
 ##### !end-explanation
@@ -334,11 +335,10 @@ Given the array below, named `list`, which contains three people, Ada Lovelace, 
 ##### !placeholder
 
 
-```
+```ruby
 def array_2
-  # your code here
   list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-
+  # your code here
   
 
   # end of your code
@@ -361,13 +361,15 @@ Just put your code in between the comments.
 One solution is below.
 
 ```ruby
-  # your code here
+def array_2
   list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+  # your code here
 
   puts list[1]
 
   # end of your code
   return list
+end
 ```
 
 ##### !end-explanation
@@ -400,11 +402,10 @@ Given the array below, named `list`, which contains three people, Ada Lovelace, 
 ##### !placeholder
 
 
-```
+```ruby
 def array_3
-  # your code here
   list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-
+  # your code here
   
 
   # end of your code
@@ -427,13 +428,15 @@ Just put your code in between the comments.
 One solution is below.
 
 ```ruby
-  # your code here
+def array_3
   list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
+  # your code here
 
   list[0] = "Megan Smith"
 
   # end of your code
   return list
+end
 ```
 
 ##### !end-explanation
@@ -465,7 +468,9 @@ Then write down two different ways you can access the second-to-last name in you
 
 ##### !placeholder
 
+```ruby
 list = []
+```
 
 ##### !end-placeholder
 
@@ -518,7 +523,9 @@ Create an array which stores the numbers 1 – 15. Then write down how to access
 
 ##### !placeholder
 
+```ruby
 list = []
+```
 
 ##### !end-placeholder
 
