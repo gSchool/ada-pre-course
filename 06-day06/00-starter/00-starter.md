@@ -7,7 +7,7 @@ This day's lesson is all about Arrays and Hashes.
 By the end of this set of lessons you should:
 
 * Be comfortable using Arrays to solve problems in Ruby
-* Be able to explain what a symbols is
+* Be able to explain what a symbol is
 * Be able to use hashes in Ruby to solve coding problems
 * Be able to explain how Hashes compare to Arrays
 * Access element in a nested data structure
