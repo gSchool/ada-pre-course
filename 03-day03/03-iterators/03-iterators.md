@@ -15,7 +15,7 @@
 
 ## `each`
 
-* `each` is an iterator that returns each value of the collection, one by one, to the block
+* `each` is an iterator that provides each value of the collection, one by one, to the block
 * `each` must be associated with a block
 * the iteration variable is optional with `each`, but usually used
 
@@ -48,7 +48,7 @@ end
 # code example
 # prints out 1,2,3,4 each on its own line
 (1..4).each do |i|
-   puts i
+  puts i
 end
 ```
 
@@ -56,7 +56,7 @@ end
 # code example
 # prints out 1,2,3 each on its own line
 (1...4).each do |i|
-   puts i
+  puts i
 end
 ```
 
@@ -64,12 +64,12 @@ end
 
 * when `times` is used with an iteration variable it becomes an iterator over a certain range of values
 * `times` must be associated with a block, but the iteration variable is optional
-* `times` starts counting at `0`, and goes up to `1 -` the value placed before `.times`
+* `times` starts counting at `0`, and goes up to 1 less than the value placed before `.times`
 
 ```ruby
 # times syntax with iteration variable
-Integer.times do |variable|
-   code
+<integer>.times do |variable|
+  code
 end
 ```
 
@@ -77,7 +77,7 @@ end
 # code example
 # prints out 0, 1, 2 each on its own line
 3.times do |num|
-   puts num
+  puts num
 end
 ```
 
@@ -87,7 +87,7 @@ end
 
 ```ruby
 (1..3).each do |num|
-   puts num * num
+  puts num * num
 end
 ```
 
@@ -103,7 +103,7 @@ end
 total = 0
 
 (1..3).each do |num|
-   total = total + num
+  total = total + num
 end
 
 puts total

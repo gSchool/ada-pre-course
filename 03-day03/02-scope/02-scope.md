@@ -12,10 +12,13 @@ You will not need to know about most of these until a few weeks into Ada, but it
 
 | Variable type     | Syntax   | Scope                                                                 |
 | :---------------- | :------- | :-------------------------------------------------------------------- |
-| Class variable    | `@@name` | Visible to the class, and sub classes                                 |
+| Class variable    | `@@name` | Visible to the class, and sub-classes                                 |
 | Instance variable | `@name`  | Visible to a specific object, and the instance methods of that object |
-| Global variable   | `$name`  | Visible to everything in the file                                     |
+| Constant          | `NAME`   | Visible to everything that uses the file, can't be modified           |
+| Global variable   | `$name`  | Visible to everything that uses the file                              |
 | Local variable    | `name`   | Depends!                                                              |
+
+**NOTE**: We try to avoid using class variables and global variables if possible because they can cause hard to fix bugs.
 
 ## Local variables and scope
 
@@ -23,7 +26,7 @@ You will not need to know about most of these until a few weeks into Ada, but it
 
 ### Examples
 
-* In ruby, local variables created outside of a block, are visible to everything inside of that file.  What does this print?
+* In Ruby, local variables created outside of a block, are visible to everything inside of that file.  What does this print?
 	
 ```ruby
 list = ["Goofy", "Minnie", "Daisy"]
@@ -43,8 +46,8 @@ list = ["Goofy", "Minnie", "Daisy"]
 greeting = ""
 
 list.each do |name|
-	name << " birthday! "
-	greeting = name
+  name << " birthday! "
+  greeting = name
 end
 
 puts greeting
@@ -58,26 +61,26 @@ Daisy birthday!
 
 * In ruby, local variables created inside if statements, are visible outside of those if statements
 
-	```ruby
-	x = gets.chomp.to_i
-	if x > 0
-	  y = 1
-	else
-	  y = -1
-	end
+  ```ruby
+  x = gets.chomp.to_i
+  if x > 0
+    y = 1
+  else
+    y = -1
+  end
 	
-	puts y # No error, if statements are not considered blocks in Ruby
-	```
+  puts y # No error, if statements are not considered blocks in Ruby
+  ```
 
 * In ruby, local variables created inside of a block are not visible outside of those blocks
 
-	```ruby
-	(1..3).each do |num|
-	  last = num
-	end
-	
-	puts last 	# NameError: undefined local variable or method x
-	```
+  ```ruby
+  (1..3).each do |num|
+    last = num
+  end
+  
+  puts last # NameError: undefined local variable or method x
+  ```
 
 ## Resources
 * [Ada Scope Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9f0f22c-607a-4186-b5f3-1e62a055a317) (6:24)

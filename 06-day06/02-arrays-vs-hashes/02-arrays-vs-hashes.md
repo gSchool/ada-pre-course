@@ -186,7 +186,7 @@ A hash must start with index/key...
 
 This is an example of a...
 
-```
+```ruby
 c14 = {
   Riley: {age: 29, color: "blue"}, 
   Sam: {age: 42, color: "yellow"}, 
@@ -244,7 +244,7 @@ This is a hash of hashes.  It's a hash with each value in the key-value pair bei
 
 This is an example of a...
 
-```
+```ruby
 c14 = [
   {
     name: "Riley",

@@ -91,8 +91,10 @@ The last index of the array is the length of the array minus 1, because the firs
   <summary>
     Click here to see an answer:
   </summary>
-
-  `puts list[list.length -2]`
+  
+  ```ruby
+  puts list[list.length - 2]
+  ```
 </details>
 
 ## Looping Through an Array
@@ -124,14 +126,16 @@ The `.each` method will iterate through the array.  On the 1st iteration `name` 
 Fill in the missing code to calculate an average of the values in the list.  **Hint** what data type should you use?
 
 ```ruby
-  list = [3, 5, 6, 15, 27]
-  sum = 0
+# Save this to a new file on your computer.
 
-  # Your Code here
+list = [3, 5, 6, 15, 27]
+sum = 0
+
+# Your Code here
 
 
 
-  puts "The average is #{average}"
+puts "The average is #{average}"
 ```
 
 ## Resources

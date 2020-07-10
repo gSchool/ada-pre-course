@@ -19,7 +19,7 @@
 
 A `while` loop executes code over and over again, while a condition is true.
 
-In the example below this loop will run while the number input with `gets.chomp` is not equal to `rand_num.  
+In the example below this loop will run while the number input with `gets.chomp` is not equal to `rand_num`.  
 
 ```ruby
 # code example
@@ -77,7 +77,7 @@ Times loops are always used for counter-based loops.  The number of executions c
 
 ```ruby
 # times syntax as a loop with no iteration variable
-Integer.times
+<integer>.times
    code
 end
 ```
