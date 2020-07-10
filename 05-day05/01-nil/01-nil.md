@@ -15,22 +15,22 @@
 ```ruby
 # everything is not automatically nil
 # you do need to first declare it
-puts x	# undefined local variable
+puts x # undefined local variable
 ```
 
 ```ruby
 nums = [1]
 if nums[1].nil?
-	puts "There is no value in index 1"
+  puts "There is no value in index 1"
 else 
-	puts "#{nums[1]} is in index 1"
+  puts "#{nums[1]} is in index 1"
 end
 
 nums = [1, 2]
 if nums[1].nil?
-	puts "There is no value in index 1"
+  puts "There is no value in index 1"
 else 
-	puts "#{nums[1]} is in index 1"
+  puts "#{nums[1]} is in index 1"
 end
 ```
 
