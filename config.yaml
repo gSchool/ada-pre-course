@@ -156,7 +156,7 @@ Standards:
         Path: /05-pre-ada05/03-exercises/03-exercises.checkpoint.md
   -
     Title: Pre-Ada 06 Arrays and Hashes
-    Description: Pre Ada06
+    Description: In this unit we focus on arrays and hashes and using them together.
     UID: 1ee06c6c27888800f88e84964c129f87
     SuccessCriteria:
       - success criteria
