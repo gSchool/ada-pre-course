@@ -8,8 +8,8 @@
 ---
 Standards:
   -
-    Title: Pre Ada01
-    Description: Pre Ada01
+    Title: Pre-Ada 01 Getting Started
+    Description: In this lesson we work on learning to setup your environment and basic Ruby types.
     UID: a316578c4adce5d91a5b045726442435
     SuccessCriteria:
       - success criteria
@@ -47,8 +47,8 @@ Standards:
         UID: 530b3bda94dd8b9fa331492954ed4687
         Path: /01-pre-ada01/07-practice-checkpoint/07-practice-checkpoint.md
   -
-    Title: Pre Ada02
-    Description: Pre Ada02
+    Title: Pre-Ada 02 Decision Making & Looping
+    Description: In this lesson we will look at creating conditionals in Ruby and practice writing programs which do so.
     UID: c4f8b81e9b3040e95d0b5e87f43e6874
     SuccessCriteria:
       - success criteria
@@ -78,8 +78,8 @@ Standards:
         UID: a494d8583e206c5400bc8c7bd2982df8
         Path: /02-pre-ada02/04-exercises/04-exercises.checkpoint.md
   -
-    Title: Pre Ada03
-    Description: Pre Ada03
+    Title: Pre-Ada 03 Loops and Scope
+    Description: In this unit we will continue to practice writing loops and explore the concept of scope.
     UID: 6a1538774b887e6801d3225e635fd57d
     SuccessCriteria:
       - success criteria
@@ -105,8 +105,8 @@ Standards:
         UID: 8da5272867509396d9929eba97a4e70d
         Path: /03-pre-ada03/04-exercise/04-exercise.checkpoint.md
   -
-    Title: Pre Ada04
-    Description: Pre Ada04
+    Title: Pre-Ada 04 Arrays, Loops and Boolean Zen
+    Description: In this unit we will introduce arrays, practice with loops involving arrays and best practices in writing boolean expressions.
     UID: 8382bb077b3216e9439524dfe7b38bf4
     SuccessCriteria:
       - success criteria
@@ -132,8 +132,8 @@ Standards:
         UID: 2e83a39f65059bd87b3211ea378d376c
         Path: /04-pre-ada04/05-exercises/05-exercises.checkpoint.md
   -
-    Title: Pre Ada05
-    Description: Pre Ada05
+    Title: Pre-Ada 05 Arrays and Nil
+    Description: In this unit we will introduce the nil value and continue to practice writing code with arrays.
     UID: fa7095dbe005193f87c07f7bc3dd38ad
     SuccessCriteria:
       - success criteria
@@ -155,7 +155,7 @@ Standards:
         UID: dac86ecccbce6649d63556ab905fb807
         Path: /05-pre-ada05/03-exercises/03-exercises.checkpoint.md
   -
-    Title: Pre Ada06
+    Title: Pre-Ada 06 Arrays and Hashes
     Description: Pre Ada06
     UID: 1ee06c6c27888800f88e84964c129f87
     SuccessCriteria:
