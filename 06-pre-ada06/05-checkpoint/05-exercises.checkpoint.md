@@ -190,13 +190,12 @@ Take a look at the nested hashes lesson.  An array of hashes would make sense.
 * type: multiple-choice
 * id: 47ac77b8-6d52-4190-b903-c44670963d28
 * title: Udacity Intro to HTML Course
-* points: [1] (optional, the number of points for scoring as a checkpoint)
+* points: 1
 * topics: html, css
 
 ##### !question
 
 This is less of a question, but an external task.  Please go to the [Udacity Intro to HTML & CSS Course](https://www.udacity.com/course/intro-to-html-and-css--ud001) and complete the course, then indicate that you have finished it below.  We will be using both HTML and CSS to develop web applications and this course is a prerequisite.  
-
 
 ##### !end-question
 
