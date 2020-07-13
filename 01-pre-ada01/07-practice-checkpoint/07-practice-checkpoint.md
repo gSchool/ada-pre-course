@@ -113,7 +113,7 @@ The `pwd` command lists the current directory.
 * type: multiple-choice
 * id: beee067a-b1f5-4bfe-a47d-7f568d4358cd
 * title: Ruby Types #1
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* points: 1
 * topics: ruby-types
 
 ##### !question
@@ -165,8 +165,8 @@ What data type is `(1..10)`?
 * type: checkbox
 * id: 5e81a4c2-2be7-40c6-8538-0c9eedb93589
 * title: Ruby Types
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: 1
+* topics: ruby-types
 
 ##### !question
 
@@ -216,8 +216,8 @@ Integers store whole numbers and Floats store decimal numbers.
 * type: multiple-choice
 * id: 19f86f5b-47dd-459b-9fe9-0ff6967dd163
 * title: Ruby Keyboard Input
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-* topics: ruby-functions
+* points: 1
+* topics: ruby-methods
 
 ##### !question
 
@@ -267,7 +267,7 @@ The method `gets` reads in one line from the keyboard including the enter key or
 * type: multiple-choice
 * id: 76aaf60b-5bce-4db5-8310-e02b370f4f94
 * title: Ruby Strings
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* points: 1
 * topics: ruby-strings
 
 ##### !question
@@ -323,12 +323,10 @@ You can only do string interpolation with the double quotes `"`.  With single qu
 * title: Ruby workflow 2
 * points: 1
 * topics: ruby-style
-<!--Other optional fields (checkpoints only) -->
-<!--`points: 1`: the number of points for scoring as a checkpoint-->
 
 ##### !question
 
-1. What is wrong with this code?
+1. What is wrong with this code? (select two)
 
 ```ruby
 puts "How many hours did you work this week?"
@@ -382,49 +380,50 @@ Notice that the code is really hard to read and it's hard to identify what text 
 * type: multiple-choice
 * id: 2327dd04-52b5-47c3-951d-1e2a30eeb5d8
 * title: Pass by reference
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-* topics: ruby-variables
+* points: 1
+* topics: ruby-variables, pass-by-reference
 
 ##### !question
 
 What will the following print out?
 
 ```ruby
-students = ["Mark Dean", "Philip Emeagwali", "Clarence Ellis"]
+student_name = "Simon"
+name = student_name.downcase!
 
-list = students
-list[0] = "Marc Hannah"
+puts student_name
 
-puts students.first
 ```
 
 ##### !end-question
 
 ##### !options
 
-* Mark Dean
-* Philip Emeagwali
-* Clarence Ellis
-* Marc Hannah
+* Simon
+* SIMON
+* simon
+* student_name
 
 ##### !end-options
 
 ##### !answer
 
-* Marc Hannah
+* simon
 
 ##### !end-answer
 
 <!-- other optional sections -->
 ##### !hint
 
-Note that both students and list will both reference the same object in memory.
+What does the `!` indicate?
 
 ##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-Since both variables reference the same object in memory they start off referencing `["Mark Dean", "Philip Emeagwali", "Clarence Ellis"]`.  Then when `list[0] = "Marc Hannah"`, both lists will refer to the array `["Marc Hannah", "Philip Emeagwali", "Clarence Ellis"]`.  So `students.first` will be `"Marc Hannah"`.
+The `.downcase!` method will modify the string referenced by `student_name` prior to also assigning it to `name`.  Then both variables will refer to the same address storing "simon" in memory.  
+
+Later if you did `name.upcase!` both `name` and `student_name` would reflect the change to upper case letters.
 
 ##### !end-explanation
 

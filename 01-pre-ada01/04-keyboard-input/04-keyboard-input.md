@@ -10,7 +10,7 @@ Keyboard input is a way to accept input from the user, when running the program 
 
 ### `chomp`
 
-When the user enters the data and then presses enter (or return) a `\n` (also called a newline character) is added to the end of the line. In some cases you don't want this character at the end, `chomp` removes that newline character
+When the user enters the data and then presses enter (or return) a `\n` (also called a newline character) is added to the end of the line. In most cases you don't want this character at the end, `chomp` removes that newline character
 
 So we often combine them with `gets.chomp`.
 

@@ -171,7 +171,7 @@ The reference is changed to:
 
 ![Changed reference](images/changed-reference.png)
 
-When you use the assignment or compound assignment operator in Ruby you change the value a variable refers.
+When you use the assignment or compound assignment operator in Ruby you change the variable to point toward a different address in memory.
 
 Further when you assign two different objects like arrays, strings or hashes to the same value, both variables point to the same place in memory.
 
@@ -182,7 +182,7 @@ other_name = name
 
 ![two variables referrring to the same data](images/two-variables-refer-to-same-value.png)
 
-This is important because on objects like strings, hashes and arrays, when you use the `.` operator Ruby follows the reference (arrow) to the object and can make changes to the value at that location.
+This is important because on objects like strings, and later hashes and arrays, when you use the `.` operator Ruby follows the reference (arrow) to the object and can make changes to the value at that location.
 
 ```ruby
 name = "Grace Hopper"
@@ -196,7 +196,9 @@ puts other_name # GRACE HOPPER
 
 ![pass by reference example](images/pass-by-reference-example.png)
 
-Similarly if two variables refer to the same hash or array, changing an element in one object will be reflected in the other.
+In the code above the `upcase!` method went to the memory address indicated by `name` and `other_name` and then changed every character at that location to an uppercase letter.  This method changes, or mutates the values at that address.  So it is often called a _mutator_ method.  It's convention in Ruby to name methods with an `!` character if they change the data stored at the memory address, to give a hint to what they do.
+
+Similarly if two variables refer to the same hash or array, changing an element in one object will be reflected in the other.  We will see this in later units.
 
 ```ruby
 list = ["Peter", "Paul", "Mary"]
@@ -215,7 +217,7 @@ puts "#{list}"    # ["Peter", "Ida", "Mary"]
 * type: multiple-choice
 * id: 0c7d1b98-583b-4800-ade8-e1d426b76681
 * title: References and values
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+* points: 1
 * topics: assignment
 
 ##### !question

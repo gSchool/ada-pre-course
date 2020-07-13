@@ -164,8 +164,8 @@ Use `snake_case` for naming files and directories.
 * type: multiple-choice
 * id: 2620a069-3f3b-486e-a669-fee596e993e1
 * title: Code Style Question 1
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: 1
+* topics: ruby-style
 
 ##### !question
 
@@ -222,8 +222,8 @@ With Ruby we use `snake_case` in the style guide.
 * type: multiple-choice
 * id: 126f39ed-7662-4d27-8043-501502d14f03
 * title: Code Style Question 2
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: 1
+* topics: ruby-style
 
 ##### !question
 
@@ -283,8 +283,8 @@ With if statements code should be indented 2 spaces.
 * type: multiple-choice
 * id: 3acc40e4-5d32-40e0-9e7d-701de8692d7a
 * title: Code Style Question 3
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: 1
+* topics: ruby-style
 
 ##### !question
 

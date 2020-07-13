@@ -8,7 +8,7 @@ All admitted students are expected to be well-versed with the concepts covered i
 
 As you complete each assignment you will recieve feedback, some of which is automated and others are not.  This is our first time using the Learn platform from [Galvanize](https://www.galvanize.com/), and as such there will be bumps in the process.  **Please be patient with bugs and let us know on Slack, so we can fix them.**
 
-Some exercises here are multiple choice, some ask you to write code into a coding window, while others ask you to submit a link to your solution.  Most of the exercises here have tests to automatically tell you if you solved it or not.  Others require an instructor to review your code.  Be patient and we will try to deliver feedback as promptly as possible.  
+Some exercises here are multiple choice, some ask you to write code into a coding window, while others ask you to submit a link to your solution.  Many of the exercises here have tests to automatically tell you if you solved it or not.  Others require an instructor to review your code.  Be patient and we will try to deliver feedback as promptly as possible.  
 
 <iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=d10f79f1-9a90-4a99-bd97-abf301681569&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="width: 720px; height: 405px; border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
@@ -138,7 +138,7 @@ Place your link here
 <!-- other optional sections -->
 ##### !hint 
 
-You can learn [how to create a gist](https://docs.github.com/en/github/writing-on-github/creating-gists) here.
+You can learn [how to create a gist](https://docs.github.com/en/github/writing-on-github/creating-gists).
 
 ##### !end-hint
 

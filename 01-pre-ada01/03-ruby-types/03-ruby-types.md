@@ -14,18 +14,8 @@ Everything in Ruby is an object. There are 7 data types you should know about no
 | Range     | A set of values with a beginning and an end     | `(2..6)`              |
 | Symbol    | A named object (used for things like hash keys) | `:apple`              |
 
-<!-- available callout types: info, success, warning, danger, secondary  -->
-<!-- I think we should remove the note on Fixnum because the lastest macOS ships Ruby 2.6.3.
-### !callout-info
-
-## Fixnum
-
-Fixnum is another name for Integer. Ruby version 2.4.0 introduced the term Integer, so if your ruby version is at least 2.4.0, use Integer. Otherwise use Fixnum. You can check your version by typing `ruby --version` in the terminal.
-
-### !end-callout
--->
-
 ### Determining the type
+
 To determine the type of an object you can use `.class`
 
 ```ruby
@@ -45,8 +35,8 @@ puts word.class #String
 * type: multiple-choice
 * id: 3c50205b-1ea5-4c8c-8fcc-b779fd9c55b3
 * title: Types Question 1
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: 1
+* topics: ruby-types
 
 ##### !question
 
@@ -101,8 +91,8 @@ A float is a real number, i.e. a number with a decimal.
 * type: multiple-choice
 * id: 0f039636-9a6e-4212-990e-b795797ac27a
 * title: Types Question 2
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: 1
+* topics: ruby-types
 
 ##### !question
 
@@ -157,8 +147,8 @@ String literals are text enclosed in single or double quotes.  So `"hello"` is a
 * type: multiple-choice
 * id: c6b1b7aa-6b60-46f7-8722-0bbf9e504cdb
 * title: Types Question 3
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: 1
+* topics: ruby-types
 
 ##### !question
 

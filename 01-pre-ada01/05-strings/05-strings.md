@@ -62,7 +62,8 @@ puts output
 
 ### % Notation
 
-The % notation is a method for creating arrays of strings.
+The % notation is a method for creating arrays of strings.  It's handy as a shortcut and can save typing.
+
 * Use %w to create a non-interpolated array of strings
 * Use %W to create an interpolated array of strings
 
