@@ -127,6 +127,8 @@ Output:  `Result: 0`
 
 Whent he program first runs `total` is 0 and `input` is 0.  The while condition is true, so we start iteration 1.  We add `input` to `total` (0 + 0 = 0) and `total` remains 0.  Then we read `-1` into `input`.  Then the loop restarts and `input > -1` is false and the program stops
 
+For practice create loop tables for the inputs 2 & 3.
+
 ## Resources
 
 * [Ada Loops Video](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8e72dc31-0a75-4bd8-9db5-0e8b322cb26d) (9:11)
