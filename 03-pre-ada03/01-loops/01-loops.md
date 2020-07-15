@@ -92,7 +92,7 @@ end
 
 ## Loop Table
 
-Create a loop table for the code below, assuming the inputs noted below
+A loop table is a table which tracks what each variable is after each iteration of the loop.  For practice create a loop table for the code below, assuming the inputs noted below
 
 ```ruby
 puts "Hello! We are going to total some numbers!"
@@ -113,6 +113,19 @@ puts "Result: #{total}"
 2. inputs: 33, 6, 2, 9, 0, -1
 3. inputs: 4.2, 1.1, 9.9, -1.0
 ```
+
+### Loop Table Example
+
+For the inputs `1. inputs: 0, -1, 2` this would be the truth table.
+
+| Iteration | total | input at loop start | input at loop end | input > -1 |
+| --------- | ----- | ------------------- | ----------------- | ---------- |
+| 1         | 0     | 0                   | -1                | true       |
+| 2         | 0     | -1                  |                   | false      |
+
+Output:  `Result: 0`
+
+Whent he program first runs `total` is 0 and `input` is 0.  The while condition is true, so we start iteration 1.  We add `input` to `total` (0 + 0 = 0) and `total` remains 0.  Then we read `-1` into `input`.  Then the loop restarts and `input > -1` is false and the program stops
 
 ## Resources
 
