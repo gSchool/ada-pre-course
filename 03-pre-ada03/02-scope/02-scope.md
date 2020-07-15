@@ -20,9 +20,14 @@ You will not need to know about most of these until a few weeks into Ada, but it
 
 **NOTE**: We try to avoid using class variables and global variables if possible because they can cause hard to fix bugs.
 
+<!-- available callout types: info, success, warning, danger, secondary  -->
+### !callout-warning
+
 ## Local variables and scope
 
-* When you define a local variable inside of a block, it is not visible outside of that block
+When you define a local variable inside of a block, it is not visible outside of that block
+
+### !end-callout
 
 ### Examples
 
