@@ -26,8 +26,8 @@ In this course you can always resubmit work.  If you want a 2nd-round of instruc
 
 ## Due Dates
 
-* You should complete Units 1-3, Getting Started through Arrays, Loops and Boolean Zen by **August 11th**
-* You **should** complete the entire course on Monday August 24th to attend Ada Cohort 14.
+* You are expected to complete Units 1-3, Getting Started through Arrays, Loops and Boolean Zen by **August 11th**
+* You are expected to complete the entire course on Monday August 24th to attend Ada Cohort 14.
 
 ### !end-callout
 
