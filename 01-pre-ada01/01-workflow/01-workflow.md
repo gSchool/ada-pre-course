@@ -94,6 +94,8 @@ $ ruby example_file.rb
   * This only needs to be done once to allow you to launch VS code from the terminal
 * Now, to launch VS Code from terminal, type `code` followed by the file name or directory name
 
+#### VS Code Extensions
+
 VS Code also come with a number of extensions which you can install to provide new or different functionality.  Some of the recommended exentsions include:
 
 *  [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - A way to collaborate on source code like Google Docs.
