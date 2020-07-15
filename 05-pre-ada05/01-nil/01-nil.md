@@ -9,6 +9,7 @@
 * Everything in Ruby is an object (even `nil` is an object)
 * `nil` is the default value of many variables when they are first created and before you store something else in them
 * To check if something is `nil` you can use the `nil?` method
+* You can think of `nil` as a value representing nothing
 
 ## Examples
 

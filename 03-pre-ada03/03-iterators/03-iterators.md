@@ -19,6 +19,8 @@
 * `each` must be associated with a block
 * the iteration variable is optional with `each`, but usually used
 
+We will talk about collections like arrays a but further on.
+
 ```ruby
 # each syntax
 # do ... end is the block
