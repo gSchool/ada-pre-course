@@ -81,6 +81,8 @@ In the following table you can see for the values of two variables `p` and `q`, 
 | `false` | `true`  | `false`    | `true`               |
 | `false` | `false` | `false`    | `false`              |
 
+The `!` or NOT operator inverts any boolean value.  For a boolean variable `p` below, you can see the result of `!p`.
+
 | __p__   | __!p__  |
 | :------ | :------ |
 | `true`  | `false` |
