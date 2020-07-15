@@ -38,8 +38,8 @@ Macs have a number of special keys which are a little different from Windows.  Y
 
 #### Terminal Shortcuts
 
-| Command            | Description                                                                                                          |
-| :----------------- | :------------------------------------------------------------------------------------------------------------------- |
+| Command                             | Description                                                                                         |
+| :---------------------------------- | :-------------------------------------------------------------------------------------------------- |
 | <kbd>cmd</kbd> + <kbd>k</kbd>       | clear your screen                                                                                   |
 | `touch <filename>`                  | creates a new file named filename                                                                   |
 | `pwd`                               | <b>p</b>rints the <b>w</b>orking <b>d</b>irectory (displays the full path of the current directory) |
@@ -93,6 +93,17 @@ $ ruby example_file.rb
 * In VS Code, type `shift-command-p` and type **shell command to install the terminal shell command**.
   * This only needs to be done once to allow you to launch VS code from the terminal
 * Now, to launch VS Code from terminal, type `code` followed by the file name or directory name
+
+VS Code also come with a number of extensions which you can install to provide new or different functionality.  Some of the recommended exentsions include:
+
+*  [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - A way to collaborate on source code like Google Docs.
+*  [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - An extension to help writing markdown files
+*  [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) - The standard Ruby extension to provide syntax highlighting and intellisense.
+*  [VS Code Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby) - Another nice VS code Ruby Extension
+*  [ERB Extention](https://marketplace.visualstudio.com/items?itemName=CraigMaslowski.erb) - An extension used with Rails
+*  [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - A JavaScript extension for syntax highlighting
+
+You are welcome to experiment with a variety of plugins for VS Code.
 
 ## Customizing Your Shell - Optional
 
