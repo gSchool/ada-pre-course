@@ -38,7 +38,7 @@ A boolean expression is an expression that evaluates to either `true` or `false`
 | `<=`         | less than or equal to    | `126 <= 100` | `false`    |
 | `>=`         | greater than or equal to | `5.0 >= 5.0` | `true`     |
  
- ## Boolean values
+## Boolean values
 
 * The two possible values of a boolean data type are `true` and `false`
 * A non-boolean value that evaluates to true, is called "truthy"
@@ -66,11 +66,11 @@ end
 
 * Logical operators allow you to combine or modify boolean expressions
 
-| __Operator__   | __Description__ | __Example__              | __Result__ |
-| :------------- | :-------------- | :----------------------- | :--------- |
-| `&&`           | and             | `(2 == 3) && (-1 < 5)`   | `false`    |
-| `\|\|`         | or              | `(2 == 3) \|\| (-1 < 5)` | `true`     |
-| `!`            | not             | `!(2 == 3)`              | `true`     |
+| __Operator__ | __Description__ | __Example__              | __Result__ |
+| :----------- | :-------------- | :----------------------- | :--------- |
+| `&&`         | and             | `(2 == 3) && (-1 < 5)`   | `false`    |
+| `\|\|`       | or              | `(2 == 3) \|\| (-1 < 5)` | `true`     |
+| `!`          | not             | `!(2 == 3)`              | `true`     |
 
 | __p__   | __q__   | __p && q__ | __p &#124;&#124; q__ |
 | :------ | :------ | :--------- | :------------------- |
