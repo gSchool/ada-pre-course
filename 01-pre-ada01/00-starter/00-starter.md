@@ -138,7 +138,7 @@ Place your link here
 <!-- other optional sections -->
 ##### !hint 
 
-You can learn [how to create a gist](https://docs.github.com/en/github/writing-on-github/creating-gists).
+You can learn [how to create a gist](https://docs.github.com/en/github/writing-on-github/creating-gists), or just create a program on [repl.it](https://repl.it).
 
 ##### !end-hint
 
