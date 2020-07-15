@@ -152,6 +152,8 @@ end
 
 This code prints `x is false, 2, or 48`, unexpectedly. 
 
+**Output**:
+
 ```
 x == false || 2 || 48
 false || 2 || 48
