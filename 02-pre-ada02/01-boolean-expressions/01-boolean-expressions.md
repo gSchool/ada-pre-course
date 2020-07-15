@@ -72,6 +72,8 @@ end
 | `||`         | or              | `(2 == 3) || (-1 < 5)` | `true`     |
 | `!`          | not             | `!(2 == 3)`            | `true`     |
 
+In the following table you can see for the values of two variables `p` and `q`, you can see the results of `p && q` (`p` AND `q`) and `p || q` (`p` OR `q`).
+
 | __p__   | __q__   | __p && q__ | __p &#124;&#124; q__ |
 | :------ | :------ | :--------- | :------------------- |
 | `true`  | `true`  | `true`     | `true`               |
