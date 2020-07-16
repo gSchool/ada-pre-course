@@ -90,7 +90,7 @@ $ ruby example_file.rb
 <iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=9e5ed912-4961-49ed-b03a-abd60034e1b7&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" width=720 height=405 style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 * If [VS Code](https://code.visualstudio.com/) is a very extensible open-source editor which supports a variety of languages including Ruby, Python, and JavaScript.  
-* In VS Code, type `shift-command-p` and type **shell command to install the terminal shell command**.
+* In VS Code, type <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>p</kbd> and type **shell command to install the terminal shell command**.
   * This only needs to be done once to allow you to launch VS code from the terminal
 * Now, to launch VS Code from terminal, type `code` followed by the file name or directory name
 
