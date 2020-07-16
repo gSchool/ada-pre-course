@@ -305,7 +305,7 @@ puts "The average is #{average}"
 
 ##### !options
 
-* There is not enough blank lines
+* There are not enough blank lines
 * The `if` statement should have parentheses ( ) around the condition.
 * The variable should be named `current_age`.
 * The variable should be named `CurrentAge`
@@ -315,7 +315,7 @@ puts "The average is #{average}"
 
 ##### !answer
 
-* There is not enough blank lines
+* There are not enough blank lines
 
 ##### !end-answer
 
