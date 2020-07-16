@@ -35,7 +35,7 @@ Use `snake_case` for naming files and directories.
 ### Calling Methods
 
 *  If the method accepts an argument, always use parens, (e.g., use `push("apple")` instead of `push "apple"`)
-*  **Exception:** `puts "hello"` is good style, whereas `puts("hello")` is bad style; this is because treat `puts` as a keyword even though it's technically a method
+*  **Exception:** `puts "hello"` is good style, whereas `puts("hello")` is bad style; this is because we treat `puts` as a keyword even though it's technically a method
 *  If a method does not accept arguments, do not use parens, (e.g, use `chomp` instead of `chomp()`)
 
 ### Strings
