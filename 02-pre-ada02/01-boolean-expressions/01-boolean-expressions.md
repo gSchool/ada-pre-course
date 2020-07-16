@@ -204,7 +204,7 @@ printout
 
 ##### !answer
 
-`true`
+/true/
 
 ##### !end-answer
 
