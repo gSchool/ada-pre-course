@@ -137,8 +137,9 @@ puts total
 
  `times` example
 
-* What is the difference between these two sections of code?
-* Which is a better style solution?
+Please write a few sentences about:
+1. What is the difference between these two sections of code?
+2. Which is a better style solution?
 
 ```ruby
 2.times do
