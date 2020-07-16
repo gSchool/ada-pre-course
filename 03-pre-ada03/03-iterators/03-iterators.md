@@ -138,6 +138,7 @@ puts total
  `times` example
 
 Please write a few sentences about:
+
 1. What is the difference between these two sections of code?
 2. Which is a better style solution?
 
