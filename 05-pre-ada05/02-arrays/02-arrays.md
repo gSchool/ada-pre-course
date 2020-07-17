@@ -336,14 +336,7 @@ Given the array below, named `list`, which contains three people, Ada Lovelace, 
 
 
 ```ruby
-def array_2
-  list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-  # your code here
-  
-
-  # end of your code
-  return list
-end
+list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
 ```
 
 ##### !end-placeholder
