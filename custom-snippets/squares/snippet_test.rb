@@ -43,5 +43,7 @@ describe "Test Suite" do
     output_list.each do |line|
       matches = matches || line.include?("[4, 9, 16, 25]")
     end
+    
+    expect(matches).must_equal true, 'Output did not include: "[4, 9, 16, 25]"'
   end
 end

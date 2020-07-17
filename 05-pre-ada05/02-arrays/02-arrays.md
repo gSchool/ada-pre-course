@@ -139,7 +139,7 @@ It is possible to have an array of arrays, but be careful when using shovel (i.e
 nums = [4, 5, 6]
 # shoves an array holding 7 onto nums
 nums << [7]
-# arary is now [4, 5, 6, [7]]
+# array is now [4, 5, 6, [7]]
 ```
 
 ## Iterating over an array
@@ -354,15 +354,9 @@ Just put your code in between the comments.
 One solution is below.
 
 ```ruby
-def array_2
-  list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-  # your code here
+list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
 
-  puts list[1]
-
-  # end of your code
-  return list
-end
+puts list[1]
 ```
 
 ##### !end-explanation
