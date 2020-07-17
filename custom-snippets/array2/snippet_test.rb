@@ -44,6 +44,6 @@ describe "Test Suite" do
       match = match || line.include?("Annie Easley")
     end
 
-    expect(match).must_equal true
+    expect(match).must_equal true, "Output (#{output_list.join '\n'}) did not include \"Annie Easley\""
   end
 end
