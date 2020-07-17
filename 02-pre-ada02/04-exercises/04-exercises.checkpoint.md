@@ -17,7 +17,7 @@ View this content in Learn to see the interactive Challenge rendered. Instructio
 
 ### !challenge
 * type: custom-snippet
-* language: text
+* language: ruby
 * id: 885d56b8-e509-40a8-9e59-76213eb5d4fa
 * title: passing or not passing
 * docker_directory_path: /custom-snippets/passing-not-passing
@@ -90,7 +90,7 @@ end
 
 ### !challenge
 * type: custom-snippet
-* language: text
+* language: ruby
 * id: 3b29e828-b904-46c8-afbc-19880da5731a
 * title: Green Go, other Stop
 * docker_directory_path: /custom-snippets/green-go
@@ -166,7 +166,7 @@ end
 
 ### !challenge
 * type: custom-snippet
-* language: text
+* language: ruby
 * id: 2a2db845-b534-48de-b26b-60e1ae3c6080
 * title: Even or odd
 * docker_directory_path: /custom-snippets/even-odd
@@ -241,7 +241,7 @@ end
 
 ### !challenge
 * type: custom-snippet
-* language: text
+* language: ruby
 * id: 65a3a53b-bc7b-423f-af4b-41f67f075553
 * title: Even or odd
 * docker_directory_path: /custom-snippets/divisible-by-five
@@ -317,7 +317,7 @@ end
 
 ### !challenge
 * type: custom-snippet
-* language: text
+* language: ruby
 * id: 675f80cd-5023-4d08-b326-0fadcdcd8dec
 * title: Jersey Number
 * docker_directory_path: /custom-snippets/jersey-number
@@ -388,7 +388,7 @@ end
 
 ### !challenge
 * type: custom-snippet
-* language: text
+* language: ruby
 * id: b23321bd-3347-4d74-9b61-e71b8b98b608
 * title: The Pacific Northwest
 * docker_directory_path: /custom-snippets/pacific-nw
@@ -468,7 +468,7 @@ end
 
 ### !challenge
 * type: custom-snippet
-* language: text
+* language: ruby
 * id: 3a794c62-0e9a-4865-a72c-d3d1890bbd41
 * title: Coffee Sizes
 * docker_directory_path: /custom-snippets/coffee-sizes
@@ -556,7 +556,7 @@ end
 
 ### !challenge
 * type: custom-snippet
-* language: text
+* language: ruby
 * id: d0c253ed-91e7-4e09-948e-228b33944ca5
 * title: Rate of Pay Part 1
 * docker_directory_path: /custom-snippets/rate-of-pay
@@ -653,7 +653,7 @@ printf("You earned $%.2f\n", earnings)
 
 ### !challenge
 * type: custom-snippet
-* language: text
+* language: ruby
 * id: cc468501-3309-419d-a689-1f5b4f5421c1
 * title: Rate of Pay Part 2
 * docker_directory_path: /custom-snippets/rate-of-pay2
