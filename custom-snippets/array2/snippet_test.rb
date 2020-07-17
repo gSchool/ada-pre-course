@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/reporters'
 require_relative "./io_test_helpers"
-require_relative "./submission"
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
@@ -36,10 +35,12 @@ describe "Test Suite" do
 
 
   it "will add another name to the list" do
-    answer = array_2
+
+    output_list = user_input_helper('', FILENAME_TO_TEST)
+
     match = false
 
-    output.each do |line|
+    output_list.each do |line|
       match = match || line.include?("Annie Easley")
     end
 
