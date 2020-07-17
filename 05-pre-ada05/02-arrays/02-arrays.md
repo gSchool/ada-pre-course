@@ -139,7 +139,7 @@ It is possible to have an array of arrays, but be careful when using shovel (i.e
 nums = [4, 5, 6]
 # shoves an array holding 7 onto nums
 nums << [7]
-# arary is now [4, 5, 6, [7]]
+# array is now [4, 5, 6, [7]]
 ```
 
 ## Iterating over an array
