@@ -354,15 +354,9 @@ Just put your code in between the comments.
 One solution is below.
 
 ```ruby
-def array_2
-  list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
-  # your code here
+list = ["Ada Lovelace", "Annie Easley", "Margaret Hamilton"]
 
-  puts list[1]
-
-  # end of your code
-  return list
-end
+puts list[1]
 ```
 
 ##### !end-explanation
