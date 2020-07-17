@@ -562,7 +562,7 @@ puts list[7]
 ### !challenge
 
 * type: custom-snippet
-* language: [text, one of: csharp, html, java, javascript, json, markdown, python, or sql]
+* language: ruby
 * id: 750a3e74-9781-4145-bc6b-721029d11d21
 * title: Powers of two
 * docker_directory_path: /custom-snippets/squares
