@@ -36,7 +36,7 @@ describe "Test Suite" do
 
   it "will add another name to the list" do
 
-    output_list = user_input_helper('', FILENAME_TO_TEST)
+    output_list = run_file(FILENAME_TO_TEST)
 
     match = false
 
