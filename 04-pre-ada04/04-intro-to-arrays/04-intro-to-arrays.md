@@ -67,7 +67,7 @@ my_list[   ]
 
 ##### !answer
 
-my_list[my_list.length - 2]
+/my_list\[my_list.length\s*-\s*2\]/
 
 ##### !end-answer
 
