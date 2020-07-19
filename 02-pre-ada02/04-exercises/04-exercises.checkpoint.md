@@ -243,7 +243,7 @@ end
 * type: custom-snippet
 * language: ruby
 * id: 65a3a53b-bc7b-423f-af4b-41f67f075553
-* title: Even or odd
+* title: Divisible by 5
 * docker_directory_path: /custom-snippets/divisible-by-five
 * points: 1
 * topics: ruby conditionals
