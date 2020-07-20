@@ -23,7 +23,6 @@ describe "Test Suite" do
 
   it "will result in GO for green" do
     output_list = user_input_helper('green', FILENAME_TO_TEST)
-    puts output_list
     
     includes_go = false
     includes_stop = false
