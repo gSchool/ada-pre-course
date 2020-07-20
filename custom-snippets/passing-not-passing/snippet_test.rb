@@ -28,9 +28,9 @@ describe "Test Suite" do
     includes_passing = false
 
     output_list.each do |word|
-      if (word.match /PASSING/)
+      if (word.match /PASSING/i)
         includes_passing = true
-      elsif (word.match /NOT/)
+      elsif (word.match /NOT/i)
         includes_not = true
       end
     end
@@ -46,9 +46,9 @@ describe "Test Suite" do
     includes_passing = false
 
     output_list.each do |word|
-      if (word.match /PASSING/) && includes_not == true
+      if (word.match /PASSING/i) && includes_not == true
         includes_passing = true
-      elsif (word.match /NOT/) && includes_passing == false
+      elsif (word.match /NOT/i) && includes_passing == false
         includes_not = true
       end
     end
@@ -63,9 +63,9 @@ describe "Test Suite" do
     includes_passing = false
 
     output_list.each do |word|
-      if (word.match /PASSING/)
+      if (word.match /PASSING/i)
         includes_passing = true
-      elsif (word.match /NOT/)
+      elsif (word.match /NOT/i)
         includes_not = true
       end
     end
@@ -81,9 +81,9 @@ describe "Test Suite" do
     includes_passing = false
 
     output_list.each do |word|
-      if (word.match /PASSING/) && includes_not == true
+      if (word.match /PASSING/i) && includes_not == true
         includes_passing = true
-      elsif (word.match /NOT/) && includes_passing == false
+      elsif (word.match /NOT/i) && includes_passing == false
         includes_not = true
       end
     end
