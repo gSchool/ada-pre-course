@@ -241,6 +241,7 @@ elsif money < 100
 puts "You can buy a good chocolate bar!"
 else
 puts "You can afford anything."
+end
 ```
 
 ##### !end-question
