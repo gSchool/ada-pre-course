@@ -28,6 +28,10 @@ describe "Test Suite" do
     goose_matches = 0
     
     output_list.each do |word|
+      if (work.match(/"Which player do you want to be the Goose?/i)
+        continue
+      end
+
       if word.match(/Duck/)
         duck_matches += 1
       elsif word.match(/Goose/)
@@ -46,6 +50,10 @@ describe "Test Suite" do
     goose_matches = 0
     
     output_list.each do |word|
+      if (work.match(/"Which player do you want to be the Goose?/i)
+        continue
+      end
+
       if word.match(/Duck/)
         duck_matches += 1
       elsif word.match(/Goose/)
@@ -62,14 +70,20 @@ describe "Test Suite" do
 
     duck_matches = 0
     goose_matches = 0
-    
+    binding.pry
     output_list.each do |word|
+      if (work.match(/"Which player do you want to be the Goose?/i)
+        continue
+      end
+
       if word.match(/Duck/)
         duck_matches += 1
       elsif word.match(/Goose/)
         goose_matches += 1
       end
     end
+
+    binding.pry
 
     expect(duck_matches).must_equal 9
     expect(goose_matches).must_equal 1
