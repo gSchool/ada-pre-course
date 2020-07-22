@@ -83,7 +83,7 @@ describe "Test Suite" do
     matches = false
     
     output_list.each do |word|
-      if word.match(/\Please see manager/)
+      if word.match(/\Please see manager/i)
         matches = true
       end
     end
