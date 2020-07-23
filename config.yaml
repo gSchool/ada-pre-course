@@ -178,7 +178,7 @@ Standards:
         Type: Checkpoint
         UID: ae2f731f04ad76655e5ecf342fead0a8
         Path: /06-pre-ada06/05-checkpoint/05-exercises.checkpoint.md
--
+  -
     Title: Installfest
     Description: Getting software installed for Ada
     UID: 1ee06c6c27888800f88e84964c129f87
