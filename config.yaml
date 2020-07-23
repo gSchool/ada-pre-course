@@ -181,7 +181,7 @@ Standards:
   -
     Title: Installfest
     Description: Getting software installed for Ada
-    UID: 1ee06c6c27888800f88e84964c129f87
+    UID: 1c91a416-b2ac-4dc3-ad4c-47b82b2c754f
     SuccessCriteria:
       - success criteria
     ContentFiles:
