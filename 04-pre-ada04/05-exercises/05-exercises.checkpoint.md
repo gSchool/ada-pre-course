@@ -52,7 +52,7 @@ A while loop could be appropriate, you could also use the string `.include?` met
 ##### !end-hint
 ##### !rubric
 
-# Candy Machine
+# Password Verification
 
 | Requirement                                                                                                   | Comments |
 | ------------------------------------------------------------------------------------------------------------- | -------- |
