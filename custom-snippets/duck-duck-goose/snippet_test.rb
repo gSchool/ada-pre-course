@@ -28,7 +28,7 @@ describe "Test Suite" do
     goose_matches = 0
     
     output_list.each do |word|
-      if (work.match(/"Which player do you want to be the Goose?/i))
+      if (word.match(/"Which player do you want to be the Goose?/i))
         continue
       end
 
@@ -43,14 +43,14 @@ describe "Test Suite" do
     expect(goose_matches).must_equal 1
   end
 
-  it "1 will result in 0 ducks and a goose" do
+  it "'1' will result in 0 ducks and a goose" do
     output_list = user_input_helper(['1'], FILENAME_TO_TEST)
 
     duck_matches = 0
     goose_matches = 0
-    
+
     output_list.each do |word|
-      if (work.match(/"Which player do you want to be the Goose?/i))
+      if (word.match(/"Which player do you want to be the Goose?/i))
         continue
       end
 
@@ -70,20 +70,18 @@ describe "Test Suite" do
 
     duck_matches = 0
     goose_matches = 0
-    binding.pry
     output_list.each do |word|
-      if (work.match(/"Which player do you want to be the Goose?/i))
+      if (word.match(/"Which player do you want to be the Goose?/i))
         continue
       end
 
-      if word.match(/Duck/)
+      if word.match(/Duck/i)
         duck_matches += 1
-      elsif word.match(/Goose/)
+      elsif word.match(/Goose/i)
         goose_matches += 1
       end
     end
 
-    binding.pry
 
     expect(duck_matches).must_equal 9
     expect(goose_matches).must_equal 1
