@@ -168,7 +168,10 @@ You can fix it by going to **System Preferences-->Security & Privacy** and selec
 
 ## Good Idea - Disable SmartQuotes
 
-The curly quotations that Microsoft Word and other applications can add can be problematic when you copy and paste code into editors.  However you can **turn them off**.  
+The curly quotations that Microsoft Word and other applications can add can be problematic when you copy and paste code into editors.  You can compare “ ”  with " ".  Ruby and most programming languages do not handle the curly quotations that MS word and other applications add.
+
+
+However you can **turn them off**.  
 
 1.  First go to System Preferences
   ![Find system preferences](images/find-system-preferences.png)  
