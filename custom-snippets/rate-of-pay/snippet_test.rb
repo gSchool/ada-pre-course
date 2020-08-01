@@ -49,7 +49,7 @@ describe "Test Suite" do
     expect(matches).must_equal true
   end
 
-  it "will result in $550.00 21 earnings and 10 hours" do
+  it "will result in $550.00 21 earnings and 50 hours" do
     output_list = user_input_helper(['10', '50'], FILENAME_TO_TEST)
 
     matches = false
