@@ -55,7 +55,7 @@ describe "Test Suite" do
     matches = false
     
     output_list.each do |word|
-      if word.match(/\$550/)
+      if word.match(/\$1155/)
         matches = true
       end
     end
