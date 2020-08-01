@@ -166,6 +166,19 @@ You can fix it by going to **System Preferences-->Security & Privacy** and selec
 
 ![Open anyway](images/open-anyway.jpg)
 
+## Good Idea - Disable SmartQuotes
+
+The curly quotations that Microsoft Word and other applications can add can be problematic when you copy and paste code into editors.  However you can **turn them off**.  
+
+1.  First go to System Preferences
+  ![Find system preferences](images/find-system-preferences.png)  
+1.  Then find **keyboard**
+  ![Keyboard in system preferences](images/keyboard.png)
+1.  Then click on the **text tab**
+  ![Text tab](images/text-tab.png)
+1.  Then uncheck **Use Smart quotes and dashes**
+  ![Uncheck smart quotes](images/uncheck-smart-quotes.png)
+
 ## Checkpoint
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
