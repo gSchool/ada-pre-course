@@ -66,7 +66,7 @@ describe "Test Suite" do
     output_list.each do |word|
       if word.match(/they love me/i) && !(word.match(/they love me not/i))
         love_me += 1
-      elsif word.match(/they love me not/)
+      elsif word.match(/they love me not/i)
         love_me_not += 1
       end
     end
