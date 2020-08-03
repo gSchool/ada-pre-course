@@ -49,13 +49,13 @@ describe "Test Suite" do
     expect(matches).must_equal true
   end
 
-  it "will result in $550.00 21 earnings and 50 hours" do
+  it "will result in $550.00 10 earnings and 50 hours" do
     output_list = user_input_helper(['10', '50'], FILENAME_TO_TEST)
 
     matches = false
     
     output_list.each do |word|
-      if word.match(/\$1155/)
+      if word.match(/\$550/)
         matches = true
       end
     end
