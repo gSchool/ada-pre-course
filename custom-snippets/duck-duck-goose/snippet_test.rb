@@ -28,11 +28,9 @@ describe "Test Suite" do
     goose_matches = 0
     
     output_list.each do |word|
-      if (word.match(/"Which player do you want to be the Goose?/i))
-        continue
-      end
+      if (word.match(/Which player do you want to be the Goose?/i))
 
-      if word.match(/Duck/)
+      elsif word.match(/Duck/)
         duck_matches += 1
       elsif word.match(/Goose/)
         goose_matches += 1
@@ -50,11 +48,9 @@ describe "Test Suite" do
     goose_matches = 0
 
     output_list.each do |word|
-      if (word.match(/"Which player do you want to be the Goose?/i))
-        continue
-      end
+      if (word.match(/Which player do you want to be the Goose?/i))
 
-      if word.match(/Duck/)
+      elsif word.match(/Duck/)
         duck_matches += 1
       elsif word.match(/Goose/)
         goose_matches += 1
@@ -71,11 +67,9 @@ describe "Test Suite" do
     duck_matches = 0
     goose_matches = 0
     output_list.each do |word|
-      if (word.match(/"Which player do you want to be the Goose?/i))
-        continue
-      end
-
-      if word.match(/Duck/i)
+      if (word.match(/Which player do you want to be the Goose?/i))
+    
+      elsif word.match(/Duck/i)
         duck_matches += 1
       elsif word.match(/Goose/i)
         goose_matches += 1
