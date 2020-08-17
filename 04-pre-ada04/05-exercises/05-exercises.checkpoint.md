@@ -131,7 +131,7 @@ Below is an example program output. User input is indicated in &lt;&gt; (angle b
 
 ### Optional Enhancements
 
-Some of these enhancements are better solved after having knowledge from [Lesson 12: Arrays](https://github.com/Ada-Developers-Academy/jump-start/tree/master/learning-to-code/arrays), so you can try some and then come back and do others after Lesson 12.
+Some of these enhancements are better solved after having knowledge from [Lesson 12: Arrays](https://github.com/Ada-Developers-Academy/ada-build/tree/ruby/learning-to-code/arrays), so you can try some and then come back and do others after Lesson 12.
 
 - Handle ties for a winner appropriately
 - Handle grammar of vote summary saying vote or votes appropriately
