@@ -6,6 +6,9 @@
 - :Section: Ruby
   :Repos:
   - :Url: https://github.com/gSchool/ada-1-intro-to-ruby
+- :Section: CS Fundamentals
+  :Repos:
+  - :Url: https://github.com/gSchool/ada-cs-fun-class
 - :Section: Pre-Ada Material
   :Repos:
   - :Url: https://github.com/gSchool/ada-jumpstart-live-programming-workflow
