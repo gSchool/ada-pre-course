@@ -9,6 +9,9 @@
 - :Section: CS Fundamentals
   :Repos:
   - :Url: https://github.com/gSchool/ada-cs-fun-class
+  - :Section: Problem Solving Exercises
+  :Repos:
+  - :Url: https://github.com/gSchool/ada-pses
 - :Section: Pre-Ada Material
   :Repos:
   - :Url: https://github.com/gSchool/ada-jumpstart-live-programming-workflow
