@@ -72,21 +72,6 @@ $ which gem
 $ # /Users/[your-name-here]/.rbenv/shims/gem
 ```
 
-## Text Editor(s)
-
-There are many options for text editors. _Sublime Text_, _TextMate_, and _Atom_ are popular **Graphic User Interface (GUI)** editors. _vim_ and _emacs_ are popular editors that operate directly on the command line.
-
-The Ada Developers Academy classroom portion will use [VS Code](https://code.visualstudio.com/) a popular open-source text editor from Microsoft.  You may use other editors or IDEs in internship or on your Capstone project.
-
-
-To install VS Code from the terminal you can use homebrew with the command:
-
-```bash
-$  brew cask install visual-studio-code
-```
-
-If you run into trouble installing VS Code, see the note at the bottom.
-
 ## Git
 
 Git is an open source distributed version control system. We will talk about git in significant detail later. The short version is that we will use Git to version and share our code with others. We will spend a lot of time using Git in the Terminal, so it will become important that we configure the Terminal to have all of our Git preferences it and personalize it with our personal information.
