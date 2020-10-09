@@ -3,6 +3,9 @@
 - :Section: Developer Skills
   :Repos:
   - :Url: https://github.com/gSchool/ada-developer-skills
+- :Section: HTML/CSS
+  :Repos:
+  - :Url: https://github.com/gSchool/ada-html-css
 - :Section: Ruby
   :Repos:
   - :Url: https://github.com/gSchool/ada-1-intro-to-ruby
