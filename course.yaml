@@ -7,6 +7,9 @@
   :Repos:
   - :Url: https://github.com/gSchool/ada-2-ruby-on-rails
 - :Section: HTML/CSS
+- :Section: JavaScript
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/ada-javascript-curriculum
   :Repos:
   - :Url: https://github.com/gSchool/ada-html-css
 - :Section: Ruby
